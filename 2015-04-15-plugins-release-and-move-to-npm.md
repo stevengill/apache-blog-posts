@@ -104,7 +104,7 @@ cordova-plugin-battery-status@1.0.0
 
 cordova-plugin-camera@1.0.0
 
-* [CB-8780](https://issues.apache.org/jira/browse/CB-8780) - Display popover using main thread. Fixes popover slowness (closes #81)
+* [CB-8780](https://issues.apache.org/jira/browse/CB-8780) Display popover using main thread. Fixes popover slowness (closes #81)
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
 * [CB-8707](https://issues.apache.org/jira/browse/CB-8707) refactoring **Windows** code to improve readability
 * [CB-8706](https://issues.apache.org/jira/browse/CB-8706) use `filePicker` if `saveToPhotoAlbum` is true
@@ -231,7 +231,7 @@ cordova-plugin-file@2.0.0
 * **Android**: Use Uri.parse rather than manual parsing in resolveLocalFileSystemURI
 * **Android**: Delete invalid `JavaDoc` (lint errors)
 * **Android**: Use `CordovaResourceAp`i rather than `FileHelper`
-* [CB-8032](https://issues.apache.org/jira/browse/CB-8032) - File Plugin - Add `nativeURL` external method support for `CDVFileSystem->makeEntryForPath:isDirectory:` (closes #96)
+* [CB-8032](https://issues.apache.org/jira/browse/CB-8032) File Plugin - Add `nativeURL` external method support for `CDVFileSystem->makeEntryForPath:isDirectory:` (closes #96)
 * [CB-8567](https://issues.apache.org/jira/browse/CB-8567) Integrate `TravisCI`
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 * [CB-7956](https://issues.apache.org/jira/browse/CB-7956) Add `cordova-plugin-file` support for **Browser** platform
@@ -257,7 +257,7 @@ cordova-plugin-file-transfer@1.0.0
 * [CB-7957](https://issues.apache.org/jira/browse/CB-7957) Adds support for `browser` platform
 * [CB-8407](https://issues.apache.org/jira/browse/CB-8407) Use File proxy to construct valid FileEntry for download success callback
 * [CB-8407](https://issues.apache.org/jira/browse/CB-8407) Removes excess path to native path conversion in download method
-* [CB-8429](https://issues.apache.org/jira/browse/CB-8429) Updated version and `RELEASENOTES.md for release 0.5.0
+* [CB-8429](https://issues.apache.org/jira/browse/CB-8429) Updated version and `RELEASENOTES.md` for release 0.5.0
 * [CB-7957](https://issues.apache.org/jira/browse/CB-7957) Adds support for **Browser** platform
 * [CB-8095](https://issues.apache.org/jira/browse/CB-8095) Fixes JSHint and formatting issues
 * [CB-8095](https://issues.apache.org/jira/browse/CB-8095) Updates tests and documentation
@@ -294,7 +294,7 @@ cordova-plugin-globalization@1.0.0
 cordova-plugin-inappbrowser@1.0.0
 
 * [CB-7689](https://issues.apache.org/jira/browse/CB-7689) Adds `insertCSS` support for **Windows** platform
-* [CB-4930](https://issues.apache.org/jira/browse/CB-4930) - (prefix) InAppBrowser should take into account the status bar
+* [CB-4930](https://issues.apache.org/jira/browse/CB-4930) (prefix) InAppBrowser should take into account the status bar
 * [CB-8635](https://issues.apache.org/jira/browse/CB-8635) Improves UX on **Windows** platform
 * [CB-8661](https://issues.apache.org/jira/browse/CB-8661) Return executed script result on **Windows**
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **WP** and **Browser** specific references of old id to new id
@@ -302,7 +302,7 @@ cordova-plugin-inappbrowser@1.0.0
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
 * [CB-8432](https://issues.apache.org/jira/browse/CB-8432) Correct styles for **Browser** wrapper to display it correctly on some pages
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) - Update `InAppBrowser` to support both **cordova-ios** 4.0.x and 3.x (closes #93)
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) Update `InAppBrowser` to support both **cordova-ios** 4.0.x and 3.x (closes #93)
 * [CB-7961](https://issues.apache.org/jira/browse/CB-7961) Add `cordova-plugin-inappbrowser` support for **Browser** platform
 * Update docs for **Android** `zoom=no` option
 * Added option to disable/enable zoom controls
@@ -312,7 +312,7 @@ cordova-plugin-inappbrowser@1.0.0
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 * Keep external **Android** pages in a single tab. (close #61)
 * [CB-8444](https://issues.apache.org/jira/browse/CB-8444) Add a clobber for `cordova.InAppBrowser.open` (close #80)
-* [CB-8444](https://issues.apache.org/jira/browse/CB-8444) Don't clobber `window.open` - Add new symbol/clobber to access open function (`cordova.InAppBrowser.open`) - Change existing tests to use new symbol (i.e. don't rely on plugin clobber of `window.open`) - Add tests to use `window.open` via manual replace with new symbol - Update docs to deprecate plugin clobber of `window.open`
+* [CB-8444](https://issues.apache.org/jira/browse/CB-8444) Don't clobber `window.open` - Add new symbol/clobber to access open function (`cordova.InAppBrowser.open`) Change existing tests to use new symbol (i.e. don't rely on plugin clobber of `window.open`) - Add tests to use `window.open` via manual replace with new symbol - Update docs to deprecate plugin clobber of `window.open`
 
 cordova-plugin-media@1.0.0
 
@@ -324,7 +324,7 @@ cordova-plugin-media@1.0.0
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * [CB-8541](https://issues.apache.org/jira/browse/CB-8541) Adds information about available recording formats on **Windows**
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
-* [CB-8686](https://issues.apache.org/jira/browse/CB-8686) - remove `musicLibrary` capability
+* [CB-8686](https://issues.apache.org/jira/browse/CB-8686) remove `musicLibrary` capability
 * [CB-7962](https://issues.apache.org/jira/browse/CB-7962) Adds **Browser** platform support
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
 * [CB-8572](https://issues.apache.org/jira/browse/CB-8572) Integrate `TravisCI`
@@ -360,8 +360,8 @@ cordova-plugin-network-information@1.0.0
 
 cordova-plugin-splashscreen@2.0.0
 
-* [CB-8797](https://issues.apache.org/jira/browse/CB-8797) - Splashscreen preferences `FadeSplashScreenDuration` and `FadeSplashScreen` (**iOS**) are missing
-* [CB-8836](https://issues.apache.org/jira/browse/CB-8836) - Crashes after animating `splashscreen`
+* [CB-8797](https://issues.apache.org/jira/browse/CB-8797) Splashscreen preferences `FadeSplashScreenDuration` and `FadeSplashScreen` (**iOS**) are missing
+* [CB-8836](https://issues.apache.org/jira/browse/CB-8836) Crashes after animating `splashscreen`
 * [CB-8753](https://issues.apache.org/jira/browse/CB-8753) **Android**: Fix missing import in previous commit
 * [CB-8753](https://issues.apache.org/jira/browse/CB-8753) **Android**: Adds `SplashMaintainAspectRatio` preference (close #43)
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
