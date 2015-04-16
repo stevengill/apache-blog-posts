@@ -8,13 +8,13 @@ categories: announcement release
 tags: plugins announcement releass
 ---
 
-The **Apache Cordova** team is happy to announce a new plugins release that coincides with us moving our core plugins to **[npm](://www.npmjs.org/)**! We are also encouraging third party plugin developers to start publishing their plugins to npm! To start using plugins from **npm**, developers will have to update their **Cordova CLI** to version 5.0.0 or higher. 
+The **Apache Cordova** team is happy to announce a new plugins release that coincides with us moving our core plugins to **[npm]**! We are also encouraging third party plugin developers to start publishing their plugins to npm! To start using plugins from **npm**, developers will have to update their **Cordova CLI** to version 5.0.0 or higher.
 
 With the move over to **npm**, we have decided to rename our core plugins for improved readability and to better fit within the npm ecosystem. All of our core plugins have changed their IDs from `org.apache.cordova.*` to `cordova-plugin-*`. Developers can now install a plugin with the command `cordova plugin add cordova-plugin-device`. Using the new ID will fetch the plugin directly from **npm**. 
 
-Our current **Cordova plugins registry** (CPR), [plugins.cordova.io](http://plugins.cordova.io) will continue to be operational for at least 6 months (October 15th, 2015) as we help plugin developers with transitioning over to **npm**. This will also allow current **Cordova** developers to upgrade their `CLI` to version 5.0.0 or higher. We will be switching **CPR** to read-only on July 15th, 2015.
+Our current **Cordova plugins registry** [CPR] will continue to be operational for at least 6 months (October 15th, 2015) as we help plugin developers with transitioning over to **npm**. This will also allow current **Cordova** developers to upgrade their `CLI` to version 5.0.0 or higher. We will be switching **CPR** to read-only on July 15th, 2015.
 
-To find plugins on **npm**, search for [ecosystem:cordova](https://www.npmjs.com/search?q=ecosystem%3Acordova). We are working with **npm** to improve discoverability and will have more to announce later this year. We encourage all third party plugin developers to add `ecosystem:cordova` as a keyword in their plugin's `package.json`.
+To find plugins on **npm**, search for [ecosystem:cordova]. We are working with **npm** to improve discoverability and will have more to announce later this year. We encourage all third party plugin developers to add `ecosystem:cordova` as a keyword in their plugin's `package.json`.
 
 ## Plugin Authors: Steps to move your plugin to **npm**
 1. **Optional** Decide if you want to change your plugin's `id`. If you decide to change it, update the `id` in `plugin.xml` and update your readme with the new `id`. Next, send a pull request adding your new id and old id to [Cordova Registry Mapper](https://github.com/stevengill/cordova-registry-mapper). We integrate that module into the **Cordova CLI** to warn users to use the new `id` when adding plugins to their projects.
