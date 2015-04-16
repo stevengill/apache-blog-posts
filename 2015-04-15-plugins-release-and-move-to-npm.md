@@ -95,7 +95,7 @@ cordova-plugin-battery-status@1.0.0
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
-* add **Android**+**FireOS** warning to tell devs that prolonged use will drain the battery.
+* add **Android**+**FireOS** warning to tell devs that prolonged use will drain the battery
 * [CB-7971](https://issues.apache.org/jira/browse/CB-7971) Add `cordova-plugin-battery-status` support for **Windows Phone 8.1**
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659): `iOS`: 4.0.x Compatibility: Remove use of `initWithWebView` method
 * added apache/travis badge - will not show until INFRA updates the github integration
@@ -307,7 +307,7 @@ cordova-plugin-inappbrowser@1.0.0
 * Update docs for **Android** `zoom=no` option
 * Added option to disable/enable zoom controls
 * updated docs, set `hardwareback` default to true
-* Add a `hardwareback` option to allow for the hardware back button to go back.
+* Add a `hardwareback` option to allow for the hardware back button to go back
 * [CB-8570](https://issues.apache.org/jira/browse/CB-8570) Integrate `TravisCI`
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 * Keep external **Android** pages in a single tab. (close #61)
@@ -381,7 +381,7 @@ cordova-plugin-statusbar@1.0.0
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
-* - Use `StatusBarBackgroundColor` instead of `AndroidStatusBarBackgroundColor`, and added a quirk to the readme.
+* - Use `StatusBarBackgroundColor` instead of `AndroidStatusBarBackgroundColor`, and added a quirk to the readme
 * - Add support for `StatusBar.backgroundColorByHexString` (and `StatusBar.backgroundColorByName`) on **Android 5** and up
 * Allow setting the `statusbar backgroundcolor` on **Android**
 * [CB-8575](https://issues.apache.org/jira/browse/CB-8575) Integrate `TravisCI`
