@@ -19,7 +19,7 @@ To find plugins on **npm**, search for [ecosystem:cordova]. We are working with 
 ## Plugin Authors: Steps to move your plugin to **npm**
 1. **Optional** Decide if you want to change your plugin's `id`. If you decide to change it, update the `id` in `plugin.xml` and update your readme with the new `id`. Next, send a pull request adding your new id and old id to [Cordova Registry Mapper](https://github.com/stevengill/cordova-registry-mapper). We integrate that module into the **Cordova CLI** to warn users to use the new `id` when adding plugins to their projects.
 
-2. Add a `package.json` to your plugins using `plugman createpackagejson [PLUGIN DIRECTORY]`. This will create defaults based on existing values in your `plugin.xml`. It will also automatically add the keyword `ecosystem:cordova` to your newly generated `package.json` file. In addition, a **cordova** key will be added to your `package.json` which we plan to use in future updates of the tooling. View the `package.json` of [cordova-plugin-device](https://github.com/apache/cordova-plugin-device/blob/master/package.json) to see an example of what your `package.json` should look like after running `plugman createpackagejson [PLUGIN DIRECTORY] command. Plugins still require a `plugin.xml` to be installed into **Cordova** projects. **Note** To keep things simple, please make sure your `id` in `plugin.xml` is the same as your `package-name` in `package.json`. 
+2. Add a `package.json` to your plugins using `plugman createpackagejson [PLUGIN DIRECTORY]`. This will create defaults based on existing values in your `plugin.xml`. It will also automatically add the keyword `ecosystem:cordova` to your newly generated `package.json` file. In addition, a **cordova** key will be added to your `package.json` which we plan to use in future updates of the tooling. View the `package.json` of [cordova-plugin-device] to see an example of what your `package.json` should look like after running `plugman createpackagejson [PLUGIN DIRECTORY] command. Plugins still require a `plugin.xml` to be installed into **Cordova** projects. **Note** To keep things simple, please make sure your `id` in `plugin.xml` is the same as your `package-name` in `package.json`.
 
 3. Publish your plugin to **npm** using the `npm publish [PLUGIN DIRECTORY]`
 
@@ -405,3 +405,4 @@ cordova-plugin-vibration@1.0.0
 [npm]: https://www.npmjs.org/
 [CPR]: http://plugins.cordova.io
 [ecosystem:cordova]: https://www.npmjs.com/search?q=ecosystem%3Acordova
+[cordova-plugin-device]: https://github.com/apache/cordova-plugin-device/blob/master/package.json
