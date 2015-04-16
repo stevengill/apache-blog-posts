@@ -8,20 +8,42 @@ categories: announcement release
 tags: plugins announcement releass
 ---
 
-The **Apache Cordova** team is happy to announce a new plugins release that coincides with us moving our core plugins to **[npm]**! We are also encouraging third party plugin developers to start publishing their plugins to npm! To start using plugins from **npm**, developers will have to update their **Cordova CLI** to version 5.0.0 or higher.
+The **Apache Cordova** team is happy to announce a new plugins release that coincides with us moving our core plugins to **[npm]**!
 
-With the move over to **npm**, we have decided to rename our core plugins for improved readability and to better fit within the npm ecosystem. All of our core plugins have changed their IDs from `org.apache.cordova.*` to `cordova-plugin-*`. Developers can now install a plugin with the command `cordova plugin add cordova-plugin-device`. Using the new ID will fetch the plugin directly from **npm**. 
+* We are also encouraging third party plugin developers to start publishing their plugins to npm!
+* To start using plugins from **npm**, developers will have to update their **Cordova CLI** to version **5.0.0** or higher.
 
-Our current **Cordova plugins registry** [CPR] will continue to be operational for at least 6 months (October 15th, 2015) as we help plugin developers with transitioning over to **npm**. This will also allow current **Cordova** developers to upgrade their `CLI` to version 5.0.0 or higher. We will be switching **CPR** to read-only on July 15th, 2015.
+With the move over to **npm**, we have decided to rename our core plugins for improved readability and to better fit within the **npm** ecosystem.
 
-To find plugins on **npm**, search for [ecosystem:cordova]. We are working with **npm** to improve discoverability and will have more to announce later this year. We encourage all third party plugin developers to add `ecosystem:cordova` as a keyword in their plugin's `package.json`.
+* All of our core plugins have changed their IDs from `org.apache.cordova.*` to `cordova-plugin-*`.
+* Developers can now install a plugin with the command `cordova plugin add cordova-plugin-device`.
+Using the new ID will fetch the plugin directly from **npm**.
+
+Our current **Cordova plugins registry** [CPR] will continue to be operational for at least 6 months (`October 15th, 2015`) as we help plugin developers transition over to **npm**.
+This will also allow current **Cordova** developers to upgrade their `CLI` to version **5.0.0** or higher.
+
+* We will be switching [CPR] to read-only on `July 15th, 2015`.
+
+To find plugins on **npm**, search for [ecosystem:cordova].
+We are working with **npm** to improve discoverability and will have more to announce later this year.
+We encourage all third party plugin developers to add `ecosystem:cordova` as a keyword in their plugin's `package.json`.
 
 ## Plugin Authors: Steps to move your plugin to **npm**
-1. **Optional** Decide if you want to change your plugin's `id`. If you decide to change it, update the `id` in `plugin.xml` and update your readme with the new `id`. Next, send a pull request adding your new id and old id to [Cordova Registry Mapper](https://github.com/stevengill/cordova-registry-mapper). We integrate that module into the **Cordova CLI** to warn users to use the new `id` when adding plugins to their projects.
+1. **Optional** Decide if you want to change your plugin's `id`. If you decide to change it,
+    1. Update the `id` in `plugin.xml` and update your readme with the new `id`.
+    1. Send a pull request adding your new id and old id to [Cordova Registry Mapper](https://github.com/stevengill/cordova-registry-mapper).
+    1. We integrate that module into the **Cordova CLI** to warn users to use the new `id` when adding plugins to their projects.
 
-2. Add a `package.json` to your plugins using `plugman createpackagejson [PLUGIN DIRECTORY]`. This will create defaults based on existing values in your `plugin.xml`. It will also automatically add the keyword `ecosystem:cordova` to your newly generated `package.json` file. In addition, a **cordova** key will be added to your `package.json` which we plan to use in future updates of the tooling. View the `package.json` of [cordova-plugin-device] to see an example of what your `package.json` should look like after running `plugman createpackagejson [PLUGIN DIRECTORY] command. Plugins still require a `plugin.xml` to be installed into **Cordova** projects. **Note** To keep things simple, please make sure your `id` in `plugin.xml` is the same as your `package-name` in `package.json`.
+2. Add a `package.json` to your plugins,
+	* **Note** To keep things simple, please make sure your `id` in `plugin.xml` is the same as your `package-name` in `package.json`.
+    * Use `plugman createpackagejson [PLUGIN DIRECTORY]` to create `package.json`.
+        * This will create defaults based on existing values in your `plugin.xml`.
+        * It will also automatically add the keyword `ecosystem:cordova` to your newly generated `package.json` file.
+        * In addition, a **cordova** key will be added to your `package.json` which we plan to use in future updates of the tooling.
+    * View the `package.json` of [cordova-plugin-device](https://github.com/apache/cordova-plugin-device/blob/master/package.json) to see an example of what your `package.json` should look like after running `plugman createpackagejson [PLUGIN DIRECTORY]` command.
+	* Plugins still require a `plugin.xml` to be installed into **Cordova** projects.
 
-3. Publish your plugin to **npm** using the `npm publish [PLUGIN DIRECTORY]`
+3. Publish your plugin to **npm** using the `npm publish [PLUGIN DIRECTORY]`.
 
 ----
 The following plugins were updated today:
