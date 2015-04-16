@@ -34,7 +34,7 @@ We encourage all third party plugin developers to add `ecosystem:cordova` as a k
     1. Send a pull request adding your new id and old id to [Cordova Registry Mapper](https://github.com/stevengill/cordova-registry-mapper).
     1. We integrate that module into the **Cordova CLI** to warn users to use the new `id` when adding plugins to their projects.
 
-2. Add a `package.json` to your plugins,
+1. Add a `package.json` to your plugins,
 	* **Note** To keep things simple, please make sure your `id` in `plugin.xml` is the same as your `package-name` in `package.json`.
     * Use `plugman createpackagejson [PLUGIN DIRECTORY]` to create `package.json`.
         * This will create defaults based on existing values in your `plugin.xml`.
@@ -43,7 +43,7 @@ We encourage all third party plugin developers to add `ecosystem:cordova` as a k
     * View the `package.json` of [cordova-plugin-device](https://github.com/apache/cordova-plugin-device/blob/master/package.json) to see an example of what your `package.json` should look like after running `plugman createpackagejson [PLUGIN DIRECTORY]` command.
 	* Plugins still require a `plugin.xml` to be installed into **Cordova** projects.
 
-3. Publish your plugin to **npm** using the `npm publish [PLUGIN DIRECTORY]`.
+1. Publish your plugin to **npm** using the `npm publish [PLUGIN DIRECTORY]`.
 
 ----
 The following plugins were updated today:
