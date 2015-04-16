@@ -90,13 +90,13 @@ Plugin changes include:
 cordova-plugin-battery-status@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
-* add `travis.yml` for CI with **paramedic**
-* added apache/travis badge - will not show until INFRA updates the github integration
+* Add `travis.yml` for CI with **paramedic**
+* Added apache/travis badge - will not show until INFRA updates the github integration
 * [CB-8808](https://issues.apache.org/jira/browse/CB-8808) Fixed tests to pass on **Windows Phone 8.1**
 * [CB-8831](https://issues.apache.org/jira/browse/CB-8831) **Windows** Adds extra check for available `API`
-* add **Android**+**FireOS** warning to tell devs that prolonged use will drain the battery
+* Add **Android**+**FireOS** warning to tell devs that prolonged use will drain the battery
 * [CB-7971](https://issues.apache.org/jira/browse/CB-7971) Add `cordova-plugin-battery-status` support for **Windows Phone 8.1**
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of `initWithWebView` method
 
@@ -104,60 +104,60 @@ cordova-plugin-camera@1.0.0
 
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) Updated Readme
 * [CB-8780](https://issues.apache.org/jira/browse/CB-8780) Display popover using main thread. Fixes popover slowness
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
-* [CB-8706](https://issues.apache.org/jira/browse/CB-8706) use `filePicker` if `saveToPhotoAlbum` is true
-* [CB-8706](https://issues.apache.org/jira/browse/CB-8706) remove unnecessary capabilities from `xml`
-* [CB-8747](https://issues.apache.org/jira/browse/CB-8747) updated dependency, added peer dependency
+* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) Bumped version of file dependency
+* [CB-8706](https://issues.apache.org/jira/browse/CB-8706) Use `filePicker` if `saveToPhotoAlbum` is true
+* [CB-8706](https://issues.apache.org/jira/browse/CB-8706) Remove unnecessary capabilities from `xml`
+* [CB-8747](https://issues.apache.org/jira/browse/CB-8747) Updated dependency, added peer dependency
 * [CB-8782](https://issues.apache.org/jira/browse/CB-8782) Updated the docs to talk about the `allowEdit` quirks, it's not 100% working, but better than it was
 * [CB-8782](https://issues.apache.org/jira/browse/CB-8782) Fixed the flow so that we save the cropped image and use it, not the original non-cropped.  Crop only supports G+ Photos Crop, other crops may not work, depending on the OEM
 * [CB-8740](https://issues.apache.org/jira/browse/CB-8740) Removing `FileHelper` call that was failing on Samsung Galaxy S3, now that we have a real path, we only need to update the `MediaStore`, not pull from it in this case
 * [CB-8740](https://issues.apache.org/jira/browse/CB-8740) Partial fix for Save Image to Gallery error found in `MobileSpec`
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8351](https://issues.apache.org/jira/browse/CB-8351) Fix custom implementation of `integerValueForKey`
 * Fix `cordova-paramedic` path change, build with `TRAVIS_BUILD_DIR`, use **npm** to install **paramedic**
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) **BlackBerry** updated references of `org.apache.cordova.camera` to `cordova-plugin-camera`
 * [CB-8707](https://issues.apache.org/jira/browse/CB-8707) **Windows** refactoring code to improve readability
-* docs: added **Windows** to supported platforms
+* Docs: added **Windows** to supported platforms
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of deprecated headers
 
 cordova-plugin-console@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8560](https://issues.apache.org/jira/browse/CB-8560) Integrate **TravisCI**
 * Use `TRAVIS_BUILD_DIR`, install ***paramedic** by **npm**
-* docs: renamed **Windows8** to **Windows**
+* Docs: renamed **Windows8** to **Windows**
 * [CB-8362](https://issues.apache.org/jira/browse/CB-8362) Add **Windows** platform section to Console plugin
 
 cordova-plugin-contacts@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8561](https://issues.apache.org/jira/browse/CB-8561) Integrate **TravisCI**
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of `initWebView` method
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of deprecated headers
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **wp** specific references of old id to new id
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Updated **wp** specific references of old id to new id
 * [CB-8604](https://issues.apache.org/jira/browse/CB-8604) Pended unsupported test for **wp8**, updated documentation
-* [CB-8395](https://issues.apache.org/jira/browse/CB-8395) marked unsupported tests pending on **wp8**
+* [CB-8395](https://issues.apache.org/jira/browse/CB-8395) Marked unsupported tests pending on **wp8**
 
 cordova-plugin-device@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
-* add travis badge
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
+* Add travis badge
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * Add cross-plugin **iOS** **paramedic** test running for **TravisCI**
-* remove defunct **windows8** version
+* Remove defunct **windows8** version
 
 cordova-plugin-device-motion@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 specific references of old id to new id
 * [CB-8562](https://issues.apache.org/jira/browse/CB-8562) Integrate **TravisCI**
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **Windows** and **Tizen** * [CB-8096](https://issues.apache.org/jira/browse/CB-8096) Pended recently added spec.12 if accelerometer doesn't exist on the device
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Updated **Windows** and **Tizen** * [CB-8096](https://issues.apache.org/jira/browse/CB-8096) Pended recently added spec.12 if accelerometer doesn't exist on the device
 * [CB-8096](https://issues.apache.org/jira/browse/CB-8096) Pended auto tests if accelerometer doesn't exist on the device
 * [CB-8083](https://issues.apache.org/jira/browse/CB-8083) Adds test to make sure success callback is called each time
 * [CB-8312](https://issues.apache.org/jira/browse/CB-8312) Multiply accelerometer values by -g on **Windows**
@@ -165,32 +165,32 @@ specific references of old id to new id
 cordova-plugin-device-orientation@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8563](https://issues.apache.org/jira/browse/CB-8563) Integrate **TravisCI**
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) Updated Readme
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **Windows** and **Tizen** specific references of old id to new id
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Updated **Windows** and **Tizen** specific references of old id to new id
 * [CB-8458](https://issues.apache.org/jira/browse/CB-8458) Fixes false failure of test, when compass hardware is not available
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of `initWebView` method
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of deprecated headers
-* force async callbacks
+* Force async callbacks
 * Updated plugin to be **Windows** instead of **Windows8**
 * [CB-8614](https://issues.apache.org/jira/browse/CB-8614) **Windows** Fixed `getCurrentHeading` and `watchHeading`
 
 cordova-plugin-dialogs@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8565](https://issues.apache.org/jira/browse/CB-8565) Integrate **TravisCI**
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated wp and bb specific references of old id to new id
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Updated wp and bb specific references of old id to new id
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of deprecated headers
 * [CB-8367](https://issues.apache.org/jira/browse/CB-8367) **Windows** Add Prompt support
 
 cordova-plugin-file@2.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8567](https://issues.apache.org/jira/browse/CB-8567) Integrate **TravisCI**
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * [CB-8689](https://issues.apache.org/jira/browse/CB-8689) Fix `NPE` in `makeEntryForNativeUri` (was affecting file-transfer)
@@ -226,18 +226,18 @@ cordova-plugin-file@2.0.0
 * [CB-7956](https://issues.apache.org/jira/browse/CB-7956) **Browser** Add support
 * [CB-8849](https://issues.apache.org/jira/browse/CB-8849) **WP8** Fixed `ReadAsArrayBuffer` to return `ArrayBuffer` and not Array
 * [CB-8819](https://issues.apache.org/jira/browse/CB-8819) **wp8** Fixed FileReader's `readAsBinaryString`
-* docs: added **Windows** to supported platforms
+* Docs: added **Windows** to supported platforms
 
 cordova-plugin-file-transfer@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8566](https://issues.apache.org/jira/browse/CB-8566) Integrate **TravisCI**
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
+* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) Bumped version of file dependency
 * [CB-8583](https://issues.apache.org/jira/browse/CB-8583) Forces download to overwrite existing target file
 * [CB-8589](https://issues.apache.org/jira/browse/CB-8589) Fixes upload failure when server's response doesn't contain any data
-* [CB-8747](https://issues.apache.org/jira/browse/CB-8747) updated dependency, added peer dependency
+* [CB-8747](https://issues.apache.org/jira/browse/CB-8747) Updated dependency, added peer dependency
 * [CB-8407](https://issues.apache.org/jira/browse/CB-8407) Use File proxy to construct valid FileEntry for download success callback
 * [CB-8407](https://issues.apache.org/jira/browse/CB-8407) Removes excess path to native path conversion in download method
 * [CB-8429](https://issues.apache.org/jira/browse/CB-8429) Updated version and `RELEASENOTES.md` for release 0.5.0
@@ -254,7 +254,7 @@ cordova-plugin-file-transfer@1.0.0
 cordova-plugin-geolocation@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8568](https://issues.apache.org/jira/browse/CB-8568) Integrate **TravisCI**
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * [CB-8681](https://issues.apache.org/jira/browse/CB-8681) Fixed occasional test failures
@@ -262,29 +262,29 @@ cordova-plugin-geolocation@1.0.0
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of deprecated headers
 * Wrong parameter in **Firefox OS** plugin
 * [CB-8443](https://issues.apache.org/jira/browse/CB-8443) Geolocation tests fail on **Windows** due to done is called multiple times
-* docs: added **Windows** to supported platforms
+* Docs: added **Windows** to supported platforms
 
 cordova-plugin-globalization@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8569](https://issues.apache.org/jira/browse/CB-8569) Integrate **TravisCI**
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **tizen** and **Browser** specific references of old id to new id
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Updated **tizen** and **Browser** specific references of old id to new id
 * [CB-7960](https://issues.apache.org/jira/browse/CB-7960) **Browser** Add support
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of `initWebView` method
-* [CB-8394](https://issues.apache.org/jira/browse/CB-8394) pended unsupported tests for **Windows** and **wp8**
-* separate section in `plugin.xml` and docs for **Windows8** platform
+* [CB-8394](https://issues.apache.org/jira/browse/CB-8394) Pended unsupported tests for **Windows** and **wp8**
+* Separate section in `plugin.xml` and docs for **Windows8** platform
 
 cordova-plugin-inappbrowser@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8570](https://issues.apache.org/jira/browse/CB-8570) Integrate **TravisCI**
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * [CB-4930](https://issues.apache.org/jira/browse/CB-4930) (prefix) InAppBrowser should take into account the status bar
 * Added option to disable/enable zoom controls
-* updated docs, set `hardwareback` default to true
+* Updated docs, set `hardwareback` default to true
 * Add a `hardwareback` option to allow for the hardware back button to go back
 * [CB-8444](https://issues.apache.org/jira/browse/CB-8444) Add a clobber for `cordova.InAppBrowser.open`
 * [CB-8444](https://issues.apache.org/jira/browse/CB-8444) Don't clobber `window.open` - Add new symbol/clobber to access open function (`cordova.InAppBrowser.open`) Change existing tests to use new symbol (i.e. don't rely on plugin clobber of `window.open`) - Add tests to use `window.open` via manual replace with new symbol - Update docs to deprecate plugin clobber of `window.open`
@@ -296,17 +296,17 @@ cordova-plugin-inappbrowser@1.0.0
 * [CB-7689](https://issues.apache.org/jira/browse/CB-7689) Adds `insertCSS` support for **Windows** platform
 * [CB-8635](https://issues.apache.org/jira/browse/CB-8635) Improves UX on **Windows** platform
 * [CB-8661](https://issues.apache.org/jira/browse/CB-8661) Return executed script result on **Windows**
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **WP** and **Browser** specific references of old id to new id
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Updated **WP** and **Browser** specific references of old id to new id
 
 cordova-plugin-media@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8572](https://issues.apache.org/jira/browse/CB-8572) Integrate **TravisCI**
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
-* [CB-8747](https://issues.apache.org/jira/browse/CB-8747) updated dependency, added peer dependency
-* [CB-8686](https://issues.apache.org/jira/browse/CB-8686) remove `musicLibrary` capability
+* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) Bumped version of file dependency
+* [CB-8747](https://issues.apache.org/jira/browse/CB-8747) Updated dependency, added peer dependency
+* [CB-8686](https://issues.apache.org/jira/browse/CB-8686) Remove `musicLibrary` capability
 * [CB-8428](https://issues.apache.org/jira/browse/CB-8428) Fix multiple `done()` calls in media plugin test on devices where audio is not configured
 * [CB-8425](https://issues.apache.org/jira/browse/CB-8425) Media plugin `.ctr`: make src param required as per spec
 * [CB-7962](https://issues.apache.org/jira/browse/CB-7962) Adds **Browser** platform support
@@ -319,11 +319,11 @@ cordova-plugin-media@1.0.0
 
 cordova-plugin-media-capture@1.0.0
 
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
-* [CB-8747](https://issues.apache.org/jira/browse/CB-8747) updated dependency, added peer dependency
-* [CB-8687](https://issues.apache.org/jira/browse/CB-8687) consolidate manifest targets
+* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) Bumped version of file dependency
+* [CB-8747](https://issues.apache.org/jira/browse/CB-8747) Updated dependency, added peer dependency
+* [CB-8687](https://issues.apache.org/jira/browse/CB-8687) Consolidate manifest targets
 * [CB-7963](https://issues.apache.org/jira/browse/CB-7963) **Browser** Add support
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of `initWebView` method
 * [CB-8571](https://issues.apache.org/jira/browse/CB-8571) Integrate **TravisCI**
@@ -331,7 +331,7 @@ cordova-plugin-media-capture@1.0.0
 
 cordova-plugin-network-information@1.0.0
 
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8185](https://issues.apache.org/jira/browse/CB-8185) Fixes typo in `cordova.platformId`
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * [CB-8185](https://issues.apache.org/jira/browse/CB-8185) Use `navigator.onLine` as connection information source on **Browser** platform
@@ -342,7 +342,7 @@ cordova-plugin-network-information@1.0.0
 cordova-plugin-splashscreen@2.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8574](https://issues.apache.org/jira/browse/CB-8574) Integrate **TravisCI**
 * [CB-8345](https://issues.apache.org/jira/browse/CB-8345) Make default for splashscreen resource `screen` (which is what template and **CLI** assume it to be)
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
@@ -350,7 +350,7 @@ cordova-plugin-splashscreen@2.0.0
 * [CB-8797](https://issues.apache.org/jira/browse/CB-8797) **iOS** add Splashscreen preferences `FadeSplashScreenDuration` and `FadeSplashScreen`
 * [CB-8753](https://issues.apache.org/jira/browse/CB-8753) **Android** Fix missing import in previous commit
 * [CB-8753](https://issues.apache.org/jira/browse/CB-8753) **Android** Adds `SplashMaintainAspectRatio` preference
-* docs: added **Windows** to supported platforms
+* Docs: added **Windows** to supported platforms
 * [CB-7964](https://issues.apache.org/jira/browse/CB-7964) **browser** Add support
 * **WP8** respect `SplashScreen` and `SplashScreenDelay` preferences from config file
 * [CB-8397](https://issues.apache.org/jira/browse/CB-8397) **Windows** support showing the **Windows Phone** splashscreen
@@ -358,7 +358,7 @@ cordova-plugin-splashscreen@2.0.0
 cordova-plugin-statusbar@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8575](https://issues.apache.org/jira/browse/CB-8575) Integrate **TravisCI**
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * Use `StatusBarBackgroundColor` instead of `AndroidStatusBarBackgroundColor`, and added a quirk to the readme
@@ -368,7 +368,7 @@ cordova-plugin-statusbar@1.0.0
 cordova-plugin-test-framework@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8528](https://issues.apache.org/jira/browse/CB-8528) Add a shim for `jasmine.Expectation.addMatchers` being moved in **jasmine 2.2.0**
 * [CB-8528](https://issues.apache.org/jira/browse/CB-8528) Update test framework plugin to use **Jasmine 2.2.0**
 * [CB-8385](https://issues.apache.org/jira/browse/CB-8385) Ensure `plugin-test-framework` trigger tests only once
@@ -376,7 +376,7 @@ cordova-plugin-test-framework@1.0.0
 cordova-plugin-vibration@1.0.0
 
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8576](https://issues.apache.org/jira/browse/CB-8576) Integrate **TravisCI**
 * [CB-7970](https://issues.apache.org/jira/browse/CB-7970) Reference proxy project instead of compiled `winmd`
 * [CB-7970](https://issues.apache.org/jira/browse/CB-7970) Add `cordova-plugin-vibration` support for **Windows Phone 8.1**
