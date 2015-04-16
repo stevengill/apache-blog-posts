@@ -97,7 +97,7 @@ cordova-plugin-battery-status@1.0.0
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
 * add **Android**+**FireOS** warning to tell devs that prolonged use will drain the battery
 * [CB-7971](https://issues.apache.org/jira/browse/CB-7971) Add `cordova-plugin-battery-status` support for **Windows Phone 8.1**
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) `iOS`: 4.0.x Compatibility: Remove use of `initWithWebView` method
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of `initWithWebView` method
 * added apache/travis badge - will not show until INFRA updates the github integration
 * add `travis.yml` for CI with paramedic
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
@@ -201,7 +201,7 @@ cordova-plugin-file@2.0.0
 
 * [CB-8849](https://issues.apache.org/jira/browse/CB-8849) Fixed `ReadAsArrayBuffer` to return `ArrayBuffer` and not Array on **WP8**
 * [CB-8819](https://issues.apache.org/jira/browse/CB-8819) Fixed FileReader's `readAsBinaryString` on **wp8**
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) `Android`: Fix broken unit tests from plugin rename
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) **Android** Fix broken unit tests from plugin rename
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
