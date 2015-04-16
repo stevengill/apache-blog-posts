@@ -242,7 +242,6 @@ cordova-plugin-file-transfer@1.0.0
 * [CB-8566](https://issues.apache.org/jira/browse/CB-8566) Integrate **TravisCI**
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 * [CB-8495](https://issues.apache.org/jira/browse/CB-8495) Fixed **wp8** and **wp8.1** test failures
-* [CB-7957](https://issues.apache.org/jira/browse/CB-7957) Adds support for `browser` platform
 * [CB-8407](https://issues.apache.org/jira/browse/CB-8407) Use File proxy to construct valid FileEntry for download success callback
 * [CB-8407](https://issues.apache.org/jira/browse/CB-8407) Removes excess path to native path conversion in download method
 * [CB-8429](https://issues.apache.org/jira/browse/CB-8429) Updated version and `RELEASENOTES.md` for release 0.5.0
