@@ -66,6 +66,7 @@ Plugin changes include:
 <!--more-->
 
 cordova-plugin-battery-status@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8808](https://issues.apache.org/jira/browse/CB-8808) Fixed tests to pass on **Windows Phone 8.1**
 * [CB-8831](https://issues.apache.org/jira/browse/CB-8831) Adds extra check for available `API` on **Windows**
@@ -81,6 +82,7 @@ cordova-plugin-battery-status@1.0.0
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 
 cordova-plugin-camera@1.0.0
+
 * [CB-8780](https://issues.apache.org/jira/browse/CB-8780) - Display popover using main thread. Fixes popover slowness (closes #81)
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
@@ -102,6 +104,7 @@ cordova-plugin-camera@1.0.0
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
 
 cordova-plugin-console@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
@@ -112,6 +115,7 @@ cordova-plugin-console@1.0.0
 * [CB-8362](https://issues.apache.org/jira/browse/CB-8362) Add **Windows** platform section to Console plugin
 
 cordova-plugin-contacts@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **wp** specific references of old id to new id
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
@@ -125,6 +129,7 @@ cordova-plugin-contacts@1.0.0
 * [CB-8395](https://issues.apache.org/jira/browse/CB-8395) marked unsupported tests pending on **wp8**
 
 cordova-plugin-device@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
@@ -135,6 +140,7 @@ cordova-plugin-device@1.0.0
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 
 cordova-plugin-device-motion@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **Windows** and **Tizen** specific references of old id to new id
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
@@ -148,6 +154,7 @@ cordova-plugin-device-motion@1.0.0
 * [CB-8083](https://issues.apache.org/jira/browse/CB-8083) Adds test to make sure success callback is called each time
 
 cordova-plugin-device-orientation@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **Windows** and **tizen** specific references of old id to new id
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
@@ -164,6 +171,7 @@ cordova-plugin-device-orientation@1.0.0
 * [CB-8458](https://issues.apache.org/jira/browse/CB-8458) Fixes false failure of test, when compass hardware is not available
 
 cordova-plugin-dialogs@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated wp and bb specific references of old id to new id
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
@@ -176,6 +184,7 @@ cordova-plugin-dialogs@1.0.0
 * [CB-8367](https://issues.apache.org/jira/browse/CB-8367) [org.apache.cordova.dialogs] Add Prompt support on **Windows**
 
 cordova-plugin-file@2.0.0
+
 * [CB-8849](https://issues.apache.org/jira/browse/CB-8849) Fixed `ReadAsArrayBuffer` to return `ArrayBuffer` and not Array on **WP8**
 * [CB-8819](https://issues.apache.org/jira/browse/CB-8819) Fixed FileReader's `readAsBinaryString` on **wp8**
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
@@ -218,6 +227,7 @@ cordova-plugin-file@2.0.0
 * Added `nativeURL` property to `FileEntry`, implemented `readAsArrayBuffer` and `readAsBinaryString`
 
 cordova-plugin-file-transfer@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8641](https://issues.apache.org/jira/browse/CB-8641) Fixed tests to pass on **Windows** and **wp8**
@@ -243,6 +253,7 @@ cordova-plugin-file-transfer@1.0.0
 * **Android**: Fix error reporting for unknown `uri` type on `sourceUri` instead of `targetUri`
 
 cordova-plugin-geolocation@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
@@ -257,6 +268,7 @@ cordova-plugin-geolocation@1.0.0
 * [CB-8443](https://issues.apache.org/jira/browse/CB-8443) Geolocation tests fail on **Windows** due to done is called multiple times
 
 cordova-plugin-globalization@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **tizen** and **Browser** specific references of old id to new id
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
@@ -270,6 +282,7 @@ cordova-plugin-globalization@1.0.0
 * [CB-8394](https://issues.apache.org/jira/browse/CB-8394) pended unsupported tests for **Windows** and **wp8**
 
 cordova-plugin-inappbrowser@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-7689](https://issues.apache.org/jira/browse/CB-7689) Adds `insertCSS` support for **Windows** platform
 * [CB-4930](https://issues.apache.org/jira/browse/CB-4930) - (prefix) InAppBrowser should take into account the status bar
@@ -293,6 +306,7 @@ cordova-plugin-inappbrowser@1.0.0
 * [CB-8444](https://issues.apache.org/jira/browse/CB-8444) Don't clobber `window.open` - Add new symbol/clobber to access open function (`cordova.InAppBrowser.open`) - Change existing tests to use new symbol (i.e. don't rely on plugin clobber of `window.open`) - Add tests to use `window.open` via manual replace with new symbol - Update docs to deprecate plugin clobber of `window.open`
 
 cordova-plugin-media@1.0.0
+
 * [CB-8793](https://issues.apache.org/jira/browse/CB-8793) Fixed tests to pass on **wp8** and **Windows**
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
@@ -313,6 +327,7 @@ cordova-plugin-media@1.0.0
 * [CB-8425](https://issues.apache.org/jira/browse/CB-8425) Media plugin `.ctr`: make src param required as per spec
 
 cordova-plugin-media-capture@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8747](https://issues.apache.org/jira/browse/CB-8747) updated dependency, added peer dependency
@@ -326,6 +341,7 @@ cordova-plugin-media-capture@1.0.0
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 
 cordova-plugin-network-information@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
@@ -337,6 +353,7 @@ cordova-plugin-network-information@1.0.0
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 
 cordova-plugin-splashscreen@2.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8797](https://issues.apache.org/jira/browse/CB-8797) - Splashscreen preferences `FadeSplashScreenDuration` and `FadeSplashScreen` (**iOS**) are missing
 * [CB-8836](https://issues.apache.org/jira/browse/CB-8836) - Crashes after animating `splashscreen`
@@ -355,6 +372,7 @@ cordova-plugin-splashscreen@2.0.0
 * [CB-8397](https://issues.apache.org/jira/browse/CB-8397) Add support to **Windows** for showing the **Windows Phone** splashscreen
 
 cordova-plugin-statusbar@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
@@ -366,6 +384,7 @@ cordova-plugin-statusbar@1.0.0
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 
 cordova-plugin-test-framework@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8528](https://issues.apache.org/jira/browse/CB-8528) Add a shim for `jasmine.Expectation.addMatchers` being moved in **jasmine 2.2.0**
@@ -374,6 +393,7 @@ cordova-plugin-test-framework@1.0.0
 * [CB-8385](https://issues.apache.org/jira/browse/CB-8385) Ensure `plugin-test-framework` trigger tests only once
 
 cordova-plugin-vibration@1.0.0
+
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) properly updated translated docs to use new id
