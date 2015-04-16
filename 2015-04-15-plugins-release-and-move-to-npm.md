@@ -245,7 +245,7 @@ cordova-plugin-file-transfer@1.0.0
 * [CB-8407](https://issues.apache.org/jira/browse/CB-8407) Use File proxy to construct valid FileEntry for download success callback
 * [CB-8407](https://issues.apache.org/jira/browse/CB-8407) Removes excess path to native path conversion in download method
 * [CB-8429](https://issues.apache.org/jira/browse/CB-8429) Updated version and `RELEASENOTES.md` for release 0.5.0
-* [CB-7957](https://issues.apache.org/jira/browse/CB-7957) Adds support for **Browser** platform
+* [CB-7957](https://issues.apache.org/jira/browse/CB-7957) **Browser** Add support
 * [CB-8095](https://issues.apache.org/jira/browse/CB-8095) Fixes JSHint and formatting issues
 * [CB-8095](https://issues.apache.org/jira/browse/CB-8095) Updates tests and documentation
 * [CB-8095](https://issues.apache.org/jira/browse/CB-8095) Rewrite upload method to support progress events properly
@@ -308,7 +308,7 @@ cordova-plugin-media@1.0.0
 * [CB-8541](https://issues.apache.org/jira/browse/CB-8541) Adds information about available recording formats on **Windows**
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * [CB-8686](https://issues.apache.org/jira/browse/CB-8686) remove `musicLibrary` capability
-* [CB-7962](https://issues.apache.org/jira/browse/CB-7962) Adds **Browser** platform support
+* [CB-7962](https://issues.apache.org/jira/browse/CB-7962) **Browser** Add support
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of deprecated headers
 * [CB-8572](https://issues.apache.org/jira/browse/CB-8572) Integrate **TravisCI**
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
@@ -324,7 +324,7 @@ cordova-plugin-media-capture@1.0.0
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * [CB-8687](https://issues.apache.org/jira/browse/CB-8687) consolidate manifest targets
-* [CB-7963](https://issues.apache.org/jira/browse/CB-7963) Adds support for **Browser** platform
+* [CB-7963](https://issues.apache.org/jira/browse/CB-7963) **Browser** Add support
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of `initWebView` method
 * [CB-8571](https://issues.apache.org/jira/browse/CB-8571) Integrate **TravisCI**
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
