@@ -97,7 +97,7 @@ cordova-plugin-battery-status@1.0.0
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
 * add **Android**+**FireOS** warning to tell devs that prolonged use will drain the battery
 * [CB-7971](https://issues.apache.org/jira/browse/CB-7971) Add `cordova-plugin-battery-status` support for **Windows Phone 8.1**
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): `iOS`: 4.0.x Compatibility: Remove use of `initWithWebView` method
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) `iOS`: 4.0.x Compatibility: Remove use of `initWithWebView` method
 * added apache/travis badge - will not show until INFRA updates the github integration
 * add `travis.yml` for CI with paramedic
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
@@ -111,17 +111,17 @@ cordova-plugin-camera@1.0.0
 * [CB-8706](https://issues.apache.org/jira/browse/CB-8706) remove unnecessary capabilities from `xml`
 * [CB-8747](https://issues.apache.org/jira/browse/CB-8747) updated dependency, added peer dependency
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **Blackberry** specific references of `org.apache.cordova.camera` to `cordova-plugin-camera`
-* [CB-8782](https://issues.apache.org/jira/browse/CB-8782): Updated the docs to talk about the `allowEdit` quirks, it's not 100% working, but better than it was
-* [CB-8782](https://issues.apache.org/jira/browse/CB-8782): Fixed the flow so that we save the cropped image and use it, not the original non-cropped.  Crop only supports G+ Photos Crop, other crops may not work, depending on the OEM
-* [CB-8740](https://issues.apache.org/jira/browse/CB-8740): Removing `FileHelper` call that was failing on Samsung Galaxy S3, now that we have a real path, we only need to update the `MediaStore`, not pull from it in this case
-* [CB-8740](https://issues.apache.org/jira/browse/CB-8740): Partial fix for Save Image to Gallery error found in `MobileSpec`
+* [CB-8782](https://issues.apache.org/jira/browse/CB-8782) Updated the docs to talk about the `allowEdit` quirks, it's not 100% working, but better than it was
+* [CB-8782](https://issues.apache.org/jira/browse/CB-8782) Fixed the flow so that we save the cropped image and use it, not the original non-cropped.  Crop only supports G+ Photos Crop, other crops may not work, depending on the OEM
+* [CB-8740](https://issues.apache.org/jira/browse/CB-8740) Removing `FileHelper` call that was failing on Samsung Galaxy S3, now that we have a real path, we only need to update the `MediaStore`, not pull from it in this case
+* [CB-8740](https://issues.apache.org/jira/browse/CB-8740) Partial fix for Save Image to Gallery error found in `MobileSpec`
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * [CB-8351](https://issues.apache.org/jira/browse/CB-8351) Fix custom implementation of `integerValueForKey` (close #79)
 * Fix `cordova-paramedic` path change, build with `TRAVIS_BUILD_DIR`, use **npm** to install paramedic
 * docs: added **Windows** to supported platforms
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) Updated Readme
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
 
 cordova-plugin-console@1.0.0
 
@@ -139,8 +139,8 @@ cordova-plugin-contacts@1.0.0
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
 * [CB-8604](https://issues.apache.org/jira/browse/CB-8604) Pended unsupported test for **wp8**, updated documentation
 * [CB-8561](https://issues.apache.org/jira/browse/CB-8561) Integrate `TravisCI`
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
@@ -176,8 +176,8 @@ cordova-plugin-device-orientation@1.0.0
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) Updated Readme
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
 * force async callbacks
 * Updated plugin to be **Windows** instead of **Windows8**
 * [CB-8614](https://issues.apache.org/jira/browse/CB-8614) Fixed `getCurrentHeading` and `watchHeading` on **Windows** platform
@@ -192,7 +192,7 @@ cordova-plugin-dialogs@1.0.0
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) properly updated translated docs to use new id
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
 * [CB-8565](https://issues.apache.org/jira/browse/CB-8565) Integrate `TravisCI`
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 * [CB-8367](https://issues.apache.org/jira/browse/CB-8367) [org.apache.cordova.dialogs] Add Prompt support on **Windows**
@@ -215,7 +215,7 @@ cordova-plugin-file@2.0.0
 * Tweak build-extras.gradle to just read/write to main `assets/` instead of `build/`
 * [CB-8689](https://issues.apache.org/jira/browse/CB-8689) Fix `NPE` in `makeEntryForNativeUri` (was affecting file-transfer)
 * [CB-8675](https://issues.apache.org/jira/browse/CB-8675) Revert "CB-8351 ios: Use `base64EncodedStringWithOptions` instead of `CordovaLib's` class extension"
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
 * Add a cache to speed up `AssetFilesystem` directory listings
 * [CB-8663](https://issues.apache.org/jira/browse/CB-8663) **Android**: Don't notify `MediaScanner` of private files
 * Don't log stacktrace for normal exceptions (e.g. file not found)
@@ -271,8 +271,8 @@ cordova-plugin-geolocation@1.0.0
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
 * [CB-8681](https://issues.apache.org/jira/browse/CB-8681) Fixed occasional test failures
 * docs: added **Windows** to supported platforms
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
 * Wrong parameter in **Firefox OS** plugin
 * [CB-8568](https://issues.apache.org/jira/browse/CB-8568) Integrate `TravisCI`
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
@@ -286,7 +286,7 @@ cordova-plugin-globalization@1.0.0
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
 * separate section in `plugin.xml` and docs for **Windows8** platform
 * [CB-7960](https://issues.apache.org/jira/browse/CB-7960) Add `cordova-plugin-globalization` support for **Browser** platform
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
 * [CB-8569](https://issues.apache.org/jira/browse/CB-8569) Integrate `TravisCI`
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 * [CB-8394](https://issues.apache.org/jira/browse/CB-8394) pended unsupported tests for **Windows** and **wp8**
@@ -326,7 +326,7 @@ cordova-plugin-media@1.0.0
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
 * [CB-8686](https://issues.apache.org/jira/browse/CB-8686) - remove `musicLibrary` capability
 * [CB-7962](https://issues.apache.org/jira/browse/CB-7962) Adds **Browser** platform support
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of deprecated headers
 * [CB-8572](https://issues.apache.org/jira/browse/CB-8572) Integrate `TravisCI`
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 * [CB-8428](https://issues.apache.org/jira/browse/CB-8428) Fix tests on **Windows** if no audio playback hardware is available
@@ -343,7 +343,7 @@ cordova-plugin-media-capture@1.0.0
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
 * [CB-8687](https://issues.apache.org/jira/browse/CB-8687) consolidate manifest targets
 * [CB-7963](https://issues.apache.org/jira/browse/CB-7963) Adds support for **Browser** platform
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
 * [CB-8571](https://issues.apache.org/jira/browse/CB-8571) Integrate `TravisCI`
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 
@@ -354,7 +354,7 @@ cordova-plugin-network-information@1.0.0
 * [CB-8185](https://issues.apache.org/jira/browse/CB-8185) Fixes typo in `cordova.platformId`
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
 * [CB-8185](https://issues.apache.org/jira/browse/CB-8185) Use `navigator.onLine` as connection information source on **Browser** platform
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659): **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS**: 4.0.x Compatibility: Remove use of `initWebView` method
 * [CB-8573](https://issues.apache.org/jira/browse/CB-8573) Integrate `TravisCI`
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 
