@@ -381,8 +381,8 @@ cordova-plugin-statusbar@1.0.0
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
-* - Use `StatusBarBackgroundColor` instead of `AndroidStatusBarBackgroundColor`, and added a quirk to the readme
-* - Add support for `StatusBar.backgroundColorByHexString` (and `StatusBar.backgroundColorByName`) on **Android 5** and up
+* Use `StatusBarBackgroundColor` instead of `AndroidStatusBarBackgroundColor`, and added a quirk to the readme
+* Add support for `StatusBar.backgroundColorByHexString` (and `StatusBar.backgroundColorByName`) on **Android 5** and up
 * Allow setting the `statusbar backgroundcolor` on **Android**
 * [CB-8575](https://issues.apache.org/jira/browse/CB-8575) Integrate `TravisCI`
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
