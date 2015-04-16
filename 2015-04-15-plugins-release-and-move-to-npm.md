@@ -26,27 +26,27 @@ To find plugins on **npm**, search for [ecosystem:cordova](https://www.npmjs.com
 ----
 The following plugins were updated today:
 
-cordova-plugin-battery-status@1.0.0
-cordova-plugin-camera@1.0.0
-cordova-plugin-console@1.0.0
-cordova-plugin-contacts@1.0.0
-cordova-plugin-device@1.0.0
-cordova-plugin-device-motion@1.0.0
-cordova-plugin-device-orientation@1.0.0
-cordova-plugin-dialogs@1.0.0
-cordova-plugin-file@2.0.0
-cordova-plugin-file-transfer@1.0.0
-cordova-plugin-geolocation@1.0.0
-cordova-plugin-globalization@1.0.0
-cordova-plugin-inappbrowser@1.0.0
-cordova-plugin-legacy-whitelist@1.0.1
-cordova-plugin-media@1.0.0
-cordova-plugin-media-capture@1.0.0
-cordova-plugin-network-information@1.0.0
-cordova-plugin-splashscreen@2.0.0
-cordova-plugin-statusbar@1.0.0
-cordova-plugin-test-framework@1.0.0
-cordova-plugin-vibration@1.0.0
+* cordova-plugin-battery-status@1.0.0
+* cordova-plugin-camera@1.0.0
+* cordova-plugin-console@1.0.0
+* cordova-plugin-contacts@1.0.0
+* cordova-plugin-device@1.0.0
+* cordova-plugin-device-motion@1.0.0
+* cordova-plugin-device-orientation@1.0.0
+* cordova-plugin-dialogs@1.0.0
+* cordova-plugin-file@2.0.0
+* cordova-plugin-file-transfer@1.0.0
+* cordova-plugin-geolocation@1.0.0
+* cordova-plugin-globalization@1.0.0
+* cordova-plugin-inappbrowser@1.0.0
+* cordova-plugin-legacy-whitelist@1.0.1
+* cordova-plugin-media@1.0.0
+* cordova-plugin-media-capture@1.0.0
+* cordova-plugin-network-information@1.0.0
+* cordova-plugin-splashscreen@2.0.0
+* cordova-plugin-statusbar@1.0.0
+* cordova-plugin-test-framework@1.0.0
+* cordova-plugin-vibration@1.0.0
 
 ----
 To update your existing plugins, you need to update your version of `Cordova CLI` to version 5.0.0.
