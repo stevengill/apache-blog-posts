@@ -104,7 +104,7 @@ cordova-plugin-battery-status@1.0.0
 
 cordova-plugin-camera@1.0.0
 
-* [CB-8780](https://issues.apache.org/jira/browse/CB-8780) Display popover using main thread. Fixes popover slowness (closes #81)
+* [CB-8780](https://issues.apache.org/jira/browse/CB-8780) Display popover using main thread. Fixes popover slowness
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
 * [CB-8707](https://issues.apache.org/jira/browse/CB-8707) refactoring **Windows** code to improve readability
 * [CB-8706](https://issues.apache.org/jira/browse/CB-8706) use `filePicker` if `saveToPhotoAlbum` is true
@@ -117,7 +117,7 @@ cordova-plugin-camera@1.0.0
 * [CB-8740](https://issues.apache.org/jira/browse/CB-8740) Partial fix for Save Image to Gallery error found in `MobileSpec`
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
-* [CB-8351](https://issues.apache.org/jira/browse/CB-8351) Fix custom implementation of `integerValueForKey` (close #79)
+* [CB-8351](https://issues.apache.org/jira/browse/CB-8351) Fix custom implementation of `integerValueForKey`
 * Fix `cordova-paramedic` path change, build with `TRAVIS_BUILD_DIR`, use **npm** to install **paramedic**
 * docs: added **Windows** to supported platforms
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) Updated Readme
@@ -210,8 +210,8 @@ cordova-plugin-file@2.0.0
 * [CB-6428](https://issues.apache.org/jira/browse/CB-6428) **Android**: Fix assets `FileEntry` having size of -1
 * **Android**: Move `URLforFullPath` into base class (and rename to `localUrlforFullPath`)
 * [CB-6428](https://issues.apache.org/jira/browse/CB-6428) Mention `build-extras.gradle` in README
-* [CB-7109](https://issues.apache.org/jira/browse/CB-7109) **Android**: Parse arguments off of the main thread (close #97)
-* [CB-8695](https://issues.apache.org/jira/browse/CB-8695) **iOS**: Fix `blob.slice()` for `asset-library` URLs (close #105)
+* [CB-7109](https://issues.apache.org/jira/browse/CB-7109) **Android**: Parse arguments off of the main thread
+* [CB-8695](https://issues.apache.org/jira/browse/CB-8695) **iOS**: Fix `blob.slice()` for `asset-library` URLs
 * Tweak build-extras.gradle to just read/write to main `assets/` instead of `build/`
 * [CB-8689](https://issues.apache.org/jira/browse/CB-8689) Fix `NPE` in `makeEntryForNativeUri` (was affecting file-transfer)
 * [CB-8675](https://issues.apache.org/jira/browse/CB-8675) Revert "CB-8351 ios: Use `base64EncodedStringWithOptions` instead of `CordovaLib's` class extension"
@@ -231,7 +231,7 @@ cordova-plugin-file@2.0.0
 * **Android**: Use Uri.parse rather than manual parsing in resolveLocalFileSystemURI
 * **Android**: Delete invalid `JavaDoc` (lint errors)
 * **Android**: Use `CordovaResourceAp`i rather than `FileHelper`
-* [CB-8032](https://issues.apache.org/jira/browse/CB-8032) File Plugin - Add `nativeURL` external method support for `CDVFileSystem->makeEntryForPath:isDirectory:` (closes #96)
+* [CB-8032](https://issues.apache.org/jira/browse/CB-8032) File Plugin - Add `nativeURL` external method support for `CDVFileSystem->makeEntryForPath:isDirectory:`
 * [CB-8567](https://issues.apache.org/jira/browse/CB-8567) Integrate **TravisCI**
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 * [CB-7956](https://issues.apache.org/jira/browse/CB-7956) Add `cordova-plugin-file` support for **Browser** platform
@@ -302,7 +302,7 @@ cordova-plugin-inappbrowser@1.0.0
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * [CB-8432](https://issues.apache.org/jira/browse/CB-8432) Correct styles for **Browser** wrapper to display it correctly on some pages
-* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) Update `InAppBrowser` to support both **cordova-ios** 4.0.x and 3.x (closes #93)
+* [CB-8659](https://issues.apache.org/jira/browse/CB-8659) Update `InAppBrowser` to support both **cordova-ios** 4.0.x and 3.x
 * [CB-7961](https://issues.apache.org/jira/browse/CB-7961) Add `cordova-plugin-inappbrowser` support for **Browser** platform
 * Update docs for **Android** `zoom=no` option
 * Added option to disable/enable zoom controls
@@ -310,8 +310,8 @@ cordova-plugin-inappbrowser@1.0.0
 * Add a `hardwareback` option to allow for the hardware back button to go back
 * [CB-8570](https://issues.apache.org/jira/browse/CB-8570) Integrate **TravisCI**
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* Keep external **Android** pages in a single tab. (close #61)
-* [CB-8444](https://issues.apache.org/jira/browse/CB-8444) Add a clobber for `cordova.InAppBrowser.open` (close #80)
+* Keep external **Android** pages in a single tab.
+* [CB-8444](https://issues.apache.org/jira/browse/CB-8444) Add a clobber for `cordova.InAppBrowser.open`
 * [CB-8444](https://issues.apache.org/jira/browse/CB-8444) Don't clobber `window.open` - Add new symbol/clobber to access open function (`cordova.InAppBrowser.open`) Change existing tests to use new symbol (i.e. don't rely on plugin clobber of `window.open`) - Add tests to use `window.open` via manual replace with new symbol - Update docs to deprecate plugin clobber of `window.open`
 
 cordova-plugin-media@1.0.0
@@ -363,7 +363,7 @@ cordova-plugin-splashscreen@2.0.0
 * [CB-8797](https://issues.apache.org/jira/browse/CB-8797) Splashscreen preferences `FadeSplashScreenDuration` and `FadeSplashScreen` (**iOS**) are missing
 * [CB-8836](https://issues.apache.org/jira/browse/CB-8836) Crashes after animating `splashscreen`
 * [CB-8753](https://issues.apache.org/jira/browse/CB-8753) **Android**: Fix missing import in previous commit
-* [CB-8753](https://issues.apache.org/jira/browse/CB-8753) **Android**: Adds `SplashMaintainAspectRatio` preference (close #43)
+* [CB-8753](https://issues.apache.org/jira/browse/CB-8753) **Android**: Adds `SplashMaintainAspectRatio` preference
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) properly updated translated docs to use new id
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
@@ -391,7 +391,7 @@ cordova-plugin-test-framework@1.0.0
 
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8528](https://issues.apache.org/jira/browse/CB-8528) Add a shim for `jasmine.Expectation.addMatchers` being moved in **jasmine 2.2.0**
-* [CB-8528](https://issues.apache.org/jira/browse/CB-8528) Update test framework plugin to use **Jasmine 2.2.0** (close #11)
+* [CB-8528](https://issues.apache.org/jira/browse/CB-8528) Update test framework plugin to use **Jasmine 2.2.0**
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 * [CB-8385](https://issues.apache.org/jira/browse/CB-8385) Ensure `plugin-test-framework` trigger tests only once
 
