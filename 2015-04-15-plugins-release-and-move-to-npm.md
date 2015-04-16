@@ -206,7 +206,7 @@ cordova-plugin-file@2.0.0
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * docs: added **Windows** to supported platforms
-* [CB-8699](https://issues.apache.org/jira/browse/CB-8699) [CB-6428](https://issues.apache.org/jira/browse/CB-6428) Fix uncompressed assets being copied as zero length files
+* [CB-6428](https://issues.apache.org/jira/browse/CB-6428) Fix uncompressed assets being copied as zero length files
 * [CB-6428](https://issues.apache.org/jira/browse/CB-6428) **Android**: Fix assets `FileEntry` having size of -1
 * **Android**: Move `URLforFullPath` into base class (and rename to `localUrlforFullPath`)
 * [CB-6428](https://issues.apache.org/jira/browse/CB-6428) Mention `build-extras.gradle` in README
