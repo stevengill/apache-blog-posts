@@ -294,7 +294,7 @@ cordova-plugin-inappbrowser@1.0.0
 * Add a `hardwareback` option to allow for the hardware back button to go back
 * [CB-8570](https://issues.apache.org/jira/browse/CB-8570) Integrate **TravisCI**
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* Keep external **Android** pages in a single tab.
+* Keep external **Android** pages in a single tab
 * [CB-8444](https://issues.apache.org/jira/browse/CB-8444) Add a clobber for `cordova.InAppBrowser.open`
 * [CB-8444](https://issues.apache.org/jira/browse/CB-8444) Don't clobber `window.open` - Add new symbol/clobber to access open function (`cordova.InAppBrowser.open`) Change existing tests to use new symbol (i.e. don't rely on plugin clobber of `window.open`) - Add tests to use `window.open` via manual replace with new symbol - Update docs to deprecate plugin clobber of `window.open`
 
