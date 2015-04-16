@@ -195,7 +195,7 @@ cordova-plugin-dialogs@1.0.0
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of deprecated headers
 * [CB-8565](https://issues.apache.org/jira/browse/CB-8565) Integrate **TravisCI**
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-8367](https://issues.apache.org/jira/browse/CB-8367) [org.apache.cordova.dialogs] Add Prompt support on **Windows**
+* [CB-8367](https://issues.apache.org/jira/browse/CB-8367) Add Prompt support on **Windows**
 
 cordova-plugin-file@2.0.0
 
@@ -231,10 +231,10 @@ cordova-plugin-file@2.0.0
 * **Android**: Use Uri.parse rather than manual parsing in resolveLocalFileSystemURI
 * **Android**: Delete invalid `JavaDoc` (lint errors)
 * **Android**: Use `CordovaResourceAp`i rather than `FileHelper`
-* [CB-8032](https://issues.apache.org/jira/browse/CB-8032) File Plugin - Add `nativeURL` external method support for `CDVFileSystem->makeEntryForPath:isDirectory:`
+* [CB-8032](https://issues.apache.org/jira/browse/CB-8032) Add `nativeURL` external method support for `CDVFileSystem->makeEntryForPath:isDirectory:`
 * [CB-8567](https://issues.apache.org/jira/browse/CB-8567) Integrate **TravisCI**
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
-* [CB-7956](https://issues.apache.org/jira/browse/CB-7956) Add `cordova-plugin-file` support for **Browser** platform
+* [CB-7956](https://issues.apache.org/jira/browse/CB-7956) **Browser** Add support
 * [CB-8423](https://issues.apache.org/jira/browse/CB-8423) Corrected usage of `done()` in async tests
 * [CB-8459](https://issues.apache.org/jira/browse/CB-8459) Fixes spec 111 failure due to incorrect relative paths handling
 * Added `nativeURL` property to `FileEntry`, implemented `readAsArrayBuffer` and `readAsBinaryString`
@@ -285,7 +285,7 @@ cordova-plugin-globalization@1.0.0
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * separate section in `plugin.xml` and docs for **Windows8** platform
-* [CB-7960](https://issues.apache.org/jira/browse/CB-7960) Add `cordova-plugin-globalization` support for **Browser** platform
+* [CB-7960](https://issues.apache.org/jira/browse/CB-7960) **Browser** Add support
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) **iOS 4.0.x** Compatibility: Remove use of `initWebView` method
 * [CB-8569](https://issues.apache.org/jira/browse/CB-8569) Integrate **TravisCI**
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
@@ -303,7 +303,7 @@ cordova-plugin-inappbrowser@1.0.0
 * Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * [CB-8432](https://issues.apache.org/jira/browse/CB-8432) Correct styles for **Browser** wrapper to display it correctly on some pages
 * [CB-8659](https://issues.apache.org/jira/browse/CB-8659) Update `InAppBrowser` to support both **cordova-ios** 4.0.x and 3.x
-* [CB-7961](https://issues.apache.org/jira/browse/CB-7961) Add `cordova-plugin-inappbrowser` support for **Browser** platform
+* [CB-7961](https://issues.apache.org/jira/browse/CB-7961) **Browser** Add support
 * Update docs for **Android** `zoom=no` option
 * Added option to disable/enable zoom controls
 * updated docs, set `hardwareback` default to true
