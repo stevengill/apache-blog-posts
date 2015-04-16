@@ -89,7 +89,6 @@ Plugin changes include:
 
 cordova-plugin-battery-status@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8808](https://issues.apache.org/jira/browse/CB-8808) Fixed tests to pass on **Windows Phone 8.1**
 * [CB-8831](https://issues.apache.org/jira/browse/CB-8831) Adds extra check for available `API` on **Windows**
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) properly updated translated docs to use new id
@@ -107,7 +106,6 @@ cordova-plugin-camera@1.0.0
 
 * [CB-8780](https://issues.apache.org/jira/browse/CB-8780) - Display popover using main thread. Fixes popover slowness (closes #81)
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8707](https://issues.apache.org/jira/browse/CB-8707) refactoring **Windows** code to improve readability
 * [CB-8706](https://issues.apache.org/jira/browse/CB-8706) use `filePicker` if `saveToPhotoAlbum` is true
 * [CB-8706](https://issues.apache.org/jira/browse/CB-8706) remove unnecessary capabilities from `xml`
@@ -127,7 +125,6 @@ cordova-plugin-camera@1.0.0
 
 cordova-plugin-console@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
@@ -138,7 +135,6 @@ cordova-plugin-console@1.0.0
 
 cordova-plugin-contacts@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **wp** specific references of old id to new id
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
@@ -152,7 +148,6 @@ cordova-plugin-contacts@1.0.0
 
 cordova-plugin-device@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
@@ -163,7 +158,6 @@ cordova-plugin-device@1.0.0
 
 cordova-plugin-device-motion@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **Windows** and **Tizen** specific references of old id to new id
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
@@ -177,7 +171,6 @@ cordova-plugin-device-motion@1.0.0
 
 cordova-plugin-device-orientation@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **Windows** and **tizen** specific references of old id to new id
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
@@ -194,7 +187,6 @@ cordova-plugin-device-orientation@1.0.0
 
 cordova-plugin-dialogs@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated wp and bb specific references of old id to new id
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) properly updated translated docs to use new id
@@ -209,7 +201,6 @@ cordova-plugin-file@2.0.0
 
 * [CB-8849](https://issues.apache.org/jira/browse/CB-8849) Fixed `ReadAsArrayBuffer` to return `ArrayBuffer` and not Array on **WP8**
 * [CB-8819](https://issues.apache.org/jira/browse/CB-8819) Fixed FileReader's `readAsBinaryString` on **wp8**
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) `Android`: Fix broken unit tests from plugin rename
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
@@ -251,7 +242,6 @@ cordova-plugin-file@2.0.0
 cordova-plugin-file-transfer@1.0.0
 
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8641](https://issues.apache.org/jira/browse/CB-8641) Fixed tests to pass on **Windows** and **wp8**
 * [CB-8583](https://issues.apache.org/jira/browse/CB-8583) Forces download to overwrite existing target file
 * [CB-8589](https://issues.apache.org/jira/browse/CB-8589) Fixes upload failure when server's response doesn't contain any data
@@ -276,7 +266,6 @@ cordova-plugin-file-transfer@1.0.0
 
 cordova-plugin-geolocation@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
@@ -291,7 +280,6 @@ cordova-plugin-geolocation@1.0.0
 
 cordova-plugin-globalization@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated **tizen** and **Browser** specific references of old id to new id
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
@@ -305,7 +293,6 @@ cordova-plugin-globalization@1.0.0
 
 cordova-plugin-inappbrowser@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-7689](https://issues.apache.org/jira/browse/CB-7689) Adds `insertCSS` support for **Windows** platform
 * [CB-4930](https://issues.apache.org/jira/browse/CB-4930) - (prefix) InAppBrowser should take into account the status bar
 * [CB-8635](https://issues.apache.org/jira/browse/CB-8635) Improves UX on **Windows** platform
@@ -331,7 +318,6 @@ cordova-plugin-media@1.0.0
 
 * [CB-8793](https://issues.apache.org/jira/browse/CB-8793) Fixed tests to pass on **wp8** and **Windows**
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8779](https://issues.apache.org/jira/browse/CB-8779) Fixed media status reporting on **wp8**
 * [CB-8747](https://issues.apache.org/jira/browse/CB-8747) updated dependency, added peer dependency
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
@@ -351,7 +337,6 @@ cordova-plugin-media@1.0.0
 cordova-plugin-media-capture@1.0.0
 
 * [CB-8746](https://issues.apache.org/jira/browse/CB-8746) bumped version of file dependency
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8747](https://issues.apache.org/jira/browse/CB-8747) updated dependency, added peer dependency
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
@@ -364,7 +349,6 @@ cordova-plugin-media-capture@1.0.0
 
 cordova-plugin-network-information@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * [CB-8185](https://issues.apache.org/jira/browse/CB-8185) Fixes typo in `cordova.platformId`
@@ -376,7 +360,6 @@ cordova-plugin-network-information@1.0.0
 
 cordova-plugin-splashscreen@2.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8797](https://issues.apache.org/jira/browse/CB-8797) - Splashscreen preferences `FadeSplashScreenDuration` and `FadeSplashScreen` (**iOS**) are missing
 * [CB-8836](https://issues.apache.org/jira/browse/CB-8836) - Crashes after animating `splashscreen`
 * [CB-8753](https://issues.apache.org/jira/browse/CB-8753) **Android**: Fix missing import in previous commit
@@ -395,7 +378,6 @@ cordova-plugin-splashscreen@2.0.0
 
 cordova-plugin-statusbar@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) updated translated docs to use new id
 * Use `TRAVIS_BUILD_DIR`, install paramedic by **npm**
@@ -407,7 +389,6 @@ cordova-plugin-statusbar@1.0.0
 
 cordova-plugin-test-framework@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8528](https://issues.apache.org/jira/browse/CB-8528) Add a shim for `jasmine.Expectation.addMatchers` being moved in **jasmine 2.2.0**
 * [CB-8528](https://issues.apache.org/jira/browse/CB-8528) Update test framework plugin to use **Jasmine 2.2.0** (close #11)
@@ -416,7 +397,6 @@ cordova-plugin-test-framework@1.0.0
 
 cordova-plugin-vibration@1.0.0
 
-* [CB-8746](https://issues.apache.org/jira/browse/CB-8746) gave plugin major version bump
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) changed `plugin-id` to `package-name`
 * [CB-8653](https://issues.apache.org/jira/browse/CB-8653) properly updated translated docs to use new id
 * [CB-7970](https://issues.apache.org/jira/browse/CB-7970) Reference proxy project instead of compiled `winmd`
