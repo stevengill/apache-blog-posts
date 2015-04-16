@@ -401,3 +401,7 @@ cordova-plugin-vibration@1.0.0
 * [CB-7970](https://issues.apache.org/jira/browse/CB-7970) Add `cordova-plugin-vibration` support for **Windows Phone 8.1**
 * [CB-8576](https://issues.apache.org/jira/browse/CB-8576) Integrate `TravisCI`
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
+
+[npm]: https://www.npmjs.org/
+[CPR]: http://plugins.cordova.io
+[ecosystem:cordova]: https://www.npmjs.com/search?q=ecosystem%3Acordova
