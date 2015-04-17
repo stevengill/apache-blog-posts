@@ -24,7 +24,7 @@ This will also allow current **Cordova** developers to upgrade their `CLI` to ve
 
 * We will be switching [CPR] to read-only on `July 15th, 2015`.
 
-To find plugins on **npm**, search for [ecosystem:cordova](https://www.npmjs.com/search?q=ecosystem%3Acordova).
+To find plugins on **npm**, search for [ecosystem:cordova].
 We are working with **npm** to improve discoverability and will have more to announce later this year.
 We encourage all third party plugin developers to add `ecosystem:cordova` as a keyword in their plugin's `package.json`.
 
@@ -35,7 +35,7 @@ We encourage all third party plugin developers to add `ecosystem:cordova` as a k
     1. We integrate that module into the **Cordova CLI** to warn users to use the new `id` when adding plugins to their projects.
 
 1. Add a `package.json` to your plugins,
-	* **Note** To keep things simple, please make sure your `id` in `plugin.xml` is the same as your `package-name` in `package.json`.
+	* **Note**: To keep things simple, please make sure your `id` in `plugin.xml` is the same as your `package-name` in `package.json`.
     * Use `plugman createpackagejson [PLUGIN DIRECTORY]` to create `package.json`.
         * This will create defaults based on existing values in your `plugin.xml`.
         * It will also automatically add the keyword `ecosystem:cordova` to your newly generated `package.json` file.
