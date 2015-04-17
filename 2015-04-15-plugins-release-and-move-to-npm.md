@@ -19,7 +19,7 @@ With the move over to **npm**, we have decided to rename our core plugins for im
 * Developers can now install a plugin with the command `cordova plugin add cordova-plugin-device`.
 Using the new ID will fetch the plugin directly from **npm**.
 
-Our current **Cordova plugins registry** [CPR] will continue to be operational for at least 6 months (`October 15th, 2015`) as we help plugin developers transition over to **npm**.
+Our current **Cordova plugins registry** ([CPR]) will continue to be operational for at least 6 months (`October 15th, 2015`) as we help plugin developers transition over to **npm**.
 This will also allow current **Cordova** developers to upgrade their `CLI` to version **5.0.0** or higher.
 
 * We will be switching [CPR] to read-only on `July 15th, 2015`.
@@ -44,6 +44,14 @@ We encourage all third party plugin developers to add `ecosystem:cordova` as a k
 	* Plugins still require a `plugin.xml` to be installed into **Cordova** projects.
 
 1. Publish your plugin to **npm** using the `npm publish [PLUGIN DIRECTORY]`.
+
+## New Whitelist Plugins
+
+We recently released [cordova-plugin-whitelist](https://www.npmjs.com/package/cordova-plugin-whitelist) and [cordova-plugin-legacy-whitelist](https://www.npmjs.com/package/cordova-plugin-legacy-whitelist). We have revamped how whitelisting works starting with `cordova-android@4.0.0`. With this change, setting a **Content-Security-Policy** (CSP) is now supported. Network requests are blocked by default without `cordova-plugin-whitelist`, so install this plugin even to allow all requests, and even if you are using CSP.
+
+`cordova-plugin-legacy-whitelist` allows `cordova-android@4.0.0` projects to continue using the old whitelisting method. We recommend using `cordova-plugin-whitelist` over `cordova-plugin-legacy-whitelist`.
+
+Other platforms will include support for `cordova-plugin-whitelist` in future releases. To learn more about whitelisting, please read the `cordova-android@4.0.0` [release blog post](http://cordova.apache.org/announcements/2015/04/15/cordova-android-4.0.0.html).
 
 ----
 The following plugins were updated today:
