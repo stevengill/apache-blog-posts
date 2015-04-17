@@ -24,7 +24,7 @@ This will also allow current **Cordova** developers to upgrade their `CLI` to ve
 
 * We will be switching [CPR] to read-only on `July 15th, 2015`.
 
-To find plugins on **npm**, search for [ecosystem:cordova].
+To find plugins on **npm**, search for [ecosystem:cordova](https://www.npmjs.com/search?q=ecosystem%3Acordova).
 We are working with **npm** to improve discoverability and will have more to announce later this year.
 We encourage all third party plugin developers to add `ecosystem:cordova` as a keyword in their plugin's `package.json`.
 
