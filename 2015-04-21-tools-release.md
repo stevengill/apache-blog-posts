@@ -17,9 +17,9 @@ New versions of cordova tools are now live!
 Release highlights:
 
 * Plugins have been renamed and the **Cordova-CLI** now supports fetching plugins from **npm**. We highly recommend reading about it in the [plugins release blog post]().
-* `<feature>` tags have been renamed to `<plugin>` tags in your projects `config.xml`. Adding a `<plugin>` tag to your `config.xml` will fetch and install it on `cordova prepare` if it isn't already installed.  
+* `<feature>` tags have been renamed to `<plugin>` tags in your projects `config.xml`. Adding a `<plugin>` tag to your `config.xml` will fetch and install it on `cordova prepare` if it isn't already installed.
 * **Cordova Android@4.0.0** has been released and pinned as the default version for new projects. This includes support for pluggable WebViews! Read about it in the [Android 4.0.0 release blog post](http://cordova.apache.org/announcements/2015/04/15/cordova-android-4.0.0.html).
-* Our template app, **[Cordova App Hello World](https://www.npmjs.com/package/cordova-app-hello-world)**, has been moved to **npm**. 
+* Our template app, **[Cordova App Hello World](https://www.npmjs.com/package/cordova-app-hello-world)**, has been moved to **npm**.
 * Added `cordova plugin save` command which saves all installed plugins into your projects `config.xml`
 
 
@@ -46,7 +46,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * [Cordova Windows 3.8.1](https://github.com/apache/cordova-windows/blob/master/RELEASENOTES.md)
 
 ## cordova-lib
-* [CB-8865](https://issues.apache.org/jira/browse/CB-8865) fixed `plugman.help()` 
+* [CB-8865](https://issues.apache.org/jira/browse/CB-8865) fixed `plugman.help()`
 * Pinned **Cordova-Android** version 4.0.0
 * Fix `getPlatformVersion` fails for paths with spaces
 * [CB-8799](https://issues.apache.org/jira/browse/CB-8799) Save plugin/platform `src` and `version` to `spec` attribute.
