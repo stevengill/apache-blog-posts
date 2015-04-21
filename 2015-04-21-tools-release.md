@@ -119,7 +119,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * Added `appveyor` badge
 * [CB-8711](https://issues.apache.org/jira/browse/CB-8711) wait for all callbacks before evaluating expectations
 * [CB-8223](https://issues.apache.org/jira/browse/CB-8223) Adds `configparser` module for exposing `config.xml` in the **Browser** platform
-* [CB-8667](https://issues.apache.org/jira/browse/CB-8667) **Windows** Handle case where checking for `NORESULT` returns falsyi
+* [CB-8667](https://issues.apache.org/jira/browse/CB-8667) **Windows** Handle case where checking for `NORESULT` returns falsy
 * add **TravisCI** link and banner
 
 ## plugman
