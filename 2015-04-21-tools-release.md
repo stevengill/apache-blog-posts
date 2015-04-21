@@ -59,7 +59,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * [CB-8791](https://issues.apache.org/jira/browse/CB-8791) Recognize `UAP` as a valid `TargetPlatformIdentifier`
 * [CB-8784](https://issues.apache.org/jira/browse/CB-8784) Prepare with no platforms should restore all platforms.
 * Fix `plugman install` failure on **iOS** containing `&`
-* [CB-8703](https://issues.apache.org/jira/browse/CB-8703): Add support for `semver` and `device-specific` targeting of `config-file` to **Windows**
+* [CB-8703](https://issues.apache.org/jira/browse/CB-8703) Add support for `semver` and `device-specific` targeting of `config-file` to **Windows**
 * [CB-8596](https://issues.apache.org/jira/browse/CB-8596) Expose APIs to retrieve platforms and plugins saved in `config.xml`.
 * [CB-8741](https://issues.apache.org/jira/browse/CB-8741) Make plugin `--save` work more like `npm install`
 * [CB-8755](https://issues.apache.org/jira/browse/CB-8755) Plugin `--save`: Multiple `config.xml` entries don't get removed
@@ -104,7 +104,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * [CB-8578](https://issues.apache.org/jira/browse/CB-8578) `cordova plugin add <plugin>` should be able to restore urls and folders in addition to versions
 * [CB-7827](https://issues.apache.org/jira/browse/CB-7827) Add support for `android-activityName` within `config.xml`
 * Add `org.apache.cordova.test-framework` to plugman publish whitelist
-* [CB-8577](https://issues.apache.org/jira/browse/CB-8577) - Read plugin variables from correct tag
+* [CB-8577](https://issues.apache.org/jira/browse/CB-8577) Read plugin variables from correct tag
 * [CB-8551](https://issues.apache.org/jira/browse/CB-8551) added `plugin-name` support for removing plugins.
 * [CB-8551](https://issues.apache.org/jira/browse/CB-8551) Skip **CPR** if `pluginID` isn't reverse domain name style
 * [CB-8551](https://issues.apache.org/jira/browse/CB-8551) added **npm** fetching as fallback
