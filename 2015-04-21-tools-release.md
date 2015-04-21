@@ -46,16 +46,16 @@ These platform versions were released recently, and the tools' defaults were upd
 * [Cordova Windows 3.8.1](https://github.com/apache/cordova-windows/blob/master/RELEASENOTES.md)
 
 ## cordova-lib
-* [CB-8865](https://issues.apache.org/jira/browse/CB-8865) fixed `plugman.help()`
+* [CB-8865](https://issues.apache.org/jira/browse/CB-8865) Fixed `plugman.help()`
 * Pinned **Cordova-Android** version **4.0.0**
 * Fix `getPlatformVersion` fails for paths with spaces
 * [CB-8799](https://issues.apache.org/jira/browse/CB-8799) Save plugin/platform `src` and `version` to `spec` attribute.
 * [CB-8807](https://issues.apache.org/jira/browse/CB-8807) Platform add fails to add plugins with variables.
 * [CB-8832](https://issues.apache.org/jira/browse/CB-8832) Fix **iOS** icon copying logic to not use default for every size
 * Updated pinned versions of **Windows** and **wp8**.
-* [CB-8775](https://issues.apache.org/jira/browse/CB-8775) adding a plugin will copy it to plugins folder, except if the plugin's new or old id is already installed.
+* [CB-8775](https://issues.apache.org/jira/browse/CB-8775) Adding a plugin will copy it to plugins folder, except if the plugin's new or old id is already installed.
 * Fix `setGlobalPreference()` in `ConfigParser`
-* removed mostly unused `relativePath` checking and added missing cases for `isAbsolutePath`
+* Removed mostly unused `relativePath` checking and added missing cases for `isAbsolutePath`
 * [CB-8791](https://issues.apache.org/jira/browse/CB-8791) Recognize `UAP` as a valid `TargetPlatformIdentifier`
 * [CB-8784](https://issues.apache.org/jira/browse/CB-8784) Prepare with no platforms should restore all platforms.
 * Fix `plugman install` failure on **iOS** containing `&`
@@ -65,7 +65,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * [CB-8755](https://issues.apache.org/jira/browse/CB-8755) Plugin `--save`: Multiple `config.xml` entries don't get removed
 * [CB-8754](https://issues.apache.org/jira/browse/CB-8754) Auto-restoring a plugin fails when adding a platform.
 * [CB-8651](https://issues.apache.org/jira/browse/CB-8651) Restoring platforms causes plugin install to be triggered twice
-* [CB-8731](https://issues.apache.org/jira/browse/CB-8731) updated `app-hello-world` dependency to **3.9.0**
+* [CB-8731](https://issues.apache.org/jira/browse/CB-8731) Updated `app-hello-world` dependency to **3.9.0**
 * [CB-8757](https://issues.apache.org/jira/browse/CB-8757) **iOS**: Make paths with `--link` relative to the real project path
 * [CB-8286](https://issues.apache.org/jira/browse/CB-8286) Fix regression from e70432f2: Never want to link to `app-hello-world`
 * [CB-8737](https://issues.apache.org/jira/browse/CB-8737) Available platforms list includes extraneous values
@@ -87,27 +87,27 @@ These platform versions were released recently, and the tools' defaults were upd
 * [CB-7698](https://issues.apache.org/jira/browse/CB-7698) BugFix: For plugins which require variables, `cordova plugin add FOO` should fail when no variables specified.
 * Add `setGlobalPreference()` to `ConfigParser`
 * [CB-8499](https://issues.apache.org/jira/browse/CB-8499) Merge platforms.js from cordova and plugman
-* rename references to `feature` to `plugin`
+* Rename references to `feature` to `plugin`
 * Deprecate the old feature syntax from `config.xml`
 * [CB-8634](https://issues.apache.org/jira/browse/CB-8634) Adds support for custom branches for `cordova platform add`
 * [CB-8633](https://issues.apache.org/jira/browse/CB-8633) BugFix: Support for urls to tarballs was broken
-* [CB-8499](https://issues.apache.org/jira/browse/CB-8499) `cordova platform save`: save installed platforms and their sources (versions/git_urls/folders) into `config.xml`
+* [CB-8499](https://issues.apache.org/jira/browse/CB-8499) `cordova platform save`: save installed platforms and their sources (versions/git_urls/folders) Into `config.xml`
 * [CB-8499](https://issues.apache.org/jira/browse/CB-8499) When deleting a platform, remove it from `platforms.json`
 * [CB-8499](https://issues.apache.org/jira/browse/CB-8499) When adding a platform, capture version/folder/url being added to allow us to be able to save all installed platforms and their versions later on by doing `cordova platform save`
 * [CB-7747](https://issues.apache.org/jira/browse/CB-7747) Add `<allow-intent>` to default template
 * [CB-8616](https://issues.apache.org/jira/browse/CB-8616) Support 9-patch images for default **Android** splashscreen
-* [CB-8551](https://issues.apache.org/jira/browse/CB-8551) fixed regex in `isValidCprName`
-* [CB-8551](https://issues.apache.org/jira/browse/CB-8551) merged `fetchNPM` and `fetchPlugReg` into `fetchPlugin`
-* [CB-8551](https://issues.apache.org/jira/browse/CB-8551) updated regex in `isValidCprName` to exclude matching `@version`
-* [CB-8551](https://issues.apache.org/jira/browse/CB-8551) split up `changePluginId` into two functions
+* [CB-8551](https://issues.apache.org/jira/browse/CB-8551) Fixed regex in `isValidCprName`
+* [CB-8551](https://issues.apache.org/jira/browse/CB-8551) Merged `fetchNPM` and `fetchPlugReg` into `fetchPlugin`
+* [CB-8551](https://issues.apache.org/jira/browse/CB-8551) Updated regex in `isValidCprName` to exclude matching `@version`
+* [CB-8551](https://issues.apache.org/jira/browse/CB-8551) Split up `changePluginId` into two functions
 * [CB-8457](https://issues.apache.org/jira/browse/CB-8457) Ignore version specifier when running hooks
 * [CB-8578](https://issues.apache.org/jira/browse/CB-8578) `cordova plugin add <plugin>` should be able to restore urls and folders in addition to versions
 * [CB-7827](https://issues.apache.org/jira/browse/CB-7827) Add support for `android-activityName` within `config.xml`
 * Add `org.apache.cordova.test-framework` to plugman publish whitelist
 * [CB-8577](https://issues.apache.org/jira/browse/CB-8577) Read plugin variables from correct tag
-* [CB-8551](https://issues.apache.org/jira/browse/CB-8551) added `plugin-name` support for removing plugins.
+* [CB-8551](https://issues.apache.org/jira/browse/CB-8551) Added `plugin-name` support for removing plugins.
 * [CB-8551](https://issues.apache.org/jira/browse/CB-8551) Skip **CPR** if `pluginID` isn't reverse domain name style
-* [CB-8551](https://issues.apache.org/jira/browse/CB-8551) added **npm** fetching as fallback
+* [CB-8551](https://issues.apache.org/jira/browse/CB-8551) Added **npm** fetching as fallback
 
 ## cordova-cli
 * Add information on **Firefox OS** to the `README`
@@ -117,10 +117,10 @@ These platform versions were released recently, and the tools' defaults were upd
 ## cordova-js
 * Verify that `window.cordova` does not already exist and throw error if it does
 * Added `appveyor` badge
-* [CB-8711](https://issues.apache.org/jira/browse/CB-8711) wait for all callbacks before evaluating expectations
+* [CB-8711](https://issues.apache.org/jira/browse/CB-8711) Wait for all callbacks before evaluating expectations
 * [CB-8223](https://issues.apache.org/jira/browse/CB-8223) Adds `configparser` module for exposing `config.xml` in the **Browser** platform
 * [CB-8667](https://issues.apache.org/jira/browse/CB-8667) **Windows** Handle case where checking for `NORESULT` returns falsy
-* add **TravisCI** link and banner
+* Add **TravisCI** link and banner
 
 ## plugman
 * [CB-8637](https://issues.apache.org/jira/browse/CB-8637) Add **Windows** platform
