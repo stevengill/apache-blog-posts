@@ -47,7 +47,7 @@ These platform versions were released recently, and the tools' defaults were upd
 
 ## cordova-lib
 * [CB-8865](https://issues.apache.org/jira/browse/CB-8865) fixed `plugman.help()`
-* Pinned **Cordova-Android** version 4.0.0
+* Pinned **Cordova-Android** version **4.0.0**
 * Fix `getPlatformVersion` fails for paths with spaces
 * [CB-8799](https://issues.apache.org/jira/browse/CB-8799) Save plugin/platform `src` and `version` to `spec` attribute.
 * [CB-8807](https://issues.apache.org/jira/browse/CB-8807) Platform add fails to add plugins with variables.
@@ -65,27 +65,27 @@ These platform versions were released recently, and the tools' defaults were upd
 * [CB-8755](https://issues.apache.org/jira/browse/CB-8755) Plugin `--save`: Multiple `config.xml` entries don't get removed
 * [CB-8754](https://issues.apache.org/jira/browse/CB-8754) Auto-restoring a plugin fails when adding a platform.
 * [CB-8651](https://issues.apache.org/jira/browse/CB-8651) Restoring platforms causes plugin install to be triggered twice
-* [CB-8731](https://issues.apache.org/jira/browse/CB-8731) updated `app-hello-world` dependency to 3.9.0
+* [CB-8731](https://issues.apache.org/jira/browse/CB-8731) updated `app-hello-world` dependency to **3.9.0**
 * [CB-8757](https://issues.apache.org/jira/browse/CB-8757) **iOS**: Make paths with `--link` relative to the real project path
 * [CB-8286](https://issues.apache.org/jira/browse/CB-8286) Fix regression from e70432f2: Never want to link to `app-hello-world`
 * [CB-8737](https://issues.apache.org/jira/browse/CB-8737) Available platforms list includes extraneous values
 * Bugfix to `json.parse` before using `cfg`
-* Add merges/ by default, now all tests pass
+* Add `merges/` by default, now all tests pass
 * Move `cordova-app-hello-world` dependency to `cordova-lib`
-* Support the old 4-argument version of create again
-* [CB-8286](https://issues.apache.org/jira/browse/CB-8286) Update `create.js` to always require passing in a www
+* Support the old 4-argument version of `cordova create` again
+* [CB-8286](https://issues.apache.org/jira/browse/CB-8286) Update `create.js` to always require passing in a `www`
 * Show **npm** failure message when plugin fetch fails
 * [CB-8725](https://issues.apache.org/jira/browse/CB-8725) Fix plugin add from **npm** when authenticated to CPR
 * [CB-8499](https://issues.apache.org/jira/browse/CB-8499) Remove `project_dir` from (un)installers signature
 * Add `addElement()` to `ConfigParser`
 * [CB-8696](https://issues.apache.org/jira/browse/CB-8696) Fix fetching of dependencies with semver constraints rather than exact versions
-* [CB-7747](https://issues.apache.org/jira/browse/CB-7747) Add `<allow-intent>` for App Store on iOS
-* Export PlatformProjectAdapter from platforms.js
-* Allow subdirs for icons on BB10
+* [CB-7747](https://issues.apache.org/jira/browse/CB-7747) Add `<allow-intent>` for App Store on **iOS**
+* Export `PlatformProjectAdapter` from `platforms.js`
+* Allow subdirs for icons on **BB10**
 * [CB-8670](https://issues.apache.org/jira/browse/CB-8670) Error when set engine name to `cordova-windows` in `plugin.xml`
 * [CB-8521](https://issues.apache.org/jira/browse/CB-8521) Adds `cordova plugin save` which saves all installed plugins to config.xml
-* [CB-7698](https://issues.apache.org/jira/browse/CB-7698) BugFix: For plugins which require variables, 'cordova plugin add FOO' should fail when no variables specified.
-* Add setGlobalPreference() to ConfigParser
+* [CB-7698](https://issues.apache.org/jira/browse/CB-7698) BugFix: For plugins which require variables, `cordova plugin add FOO` should fail when no variables specified.
+* Add `setGlobalPreference()` to `ConfigParser`
 * [CB-8499](https://issues.apache.org/jira/browse/CB-8499) Merge platforms.js from cordova and plugman
 * rename references to `feature` to `plugin`
 * Deprecate the old feature syntax from `config.xml`
@@ -110,8 +110,8 @@ These platform versions were released recently, and the tools' defaults were upd
 * [CB-8551](https://issues.apache.org/jira/browse/CB-8551) added **npm** fetching as fallback
 
 ## cordova-cli
-* Add information on **Firefox OS** to the README
-* Update link to hooks README
+* Add information on **Firefox OS** to the `README`
+* Update link to hooks `README`
 * [CB-8634](https://issues.apache.org/jira/browse/CB-8634) Adds docs about support for custom branches for `cordova platform add`
 
 ## cordova-js
@@ -120,7 +120,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * [CB-8711](https://issues.apache.org/jira/browse/CB-8711) wait for all callbacks before evaluating expectations
 * [CB-8223](https://issues.apache.org/jira/browse/CB-8223) Adds `configparser` module for exposing `config.xml` in the **Browser** platform
 * [CB-8667](https://issues.apache.org/jira/browse/CB-8667) **Windows** Handle case where checking for `NORESULT` returns falsyi
-* add 'TravisCI' link and banner
+* add **TravisCI** link and banner
 
 ## plugman
 * [CB-8637](https://issues.apache.org/jira/browse/CB-8637) add **Windows** to plugman
