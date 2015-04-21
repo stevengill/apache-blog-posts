@@ -123,7 +123,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * add **TravisCI** link and banner
 
 ## plugman
-* [CB-8637](https://issues.apache.org/jira/browse/CB-8637) add **Windows** to plugman
+* [CB-8637](https://issues.apache.org/jira/browse/CB-8637) Add **Windows** platform
 
 ## Pinned Platform Versions for **Cordova CLI 5.0.0**
 
