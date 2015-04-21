@@ -64,9 +64,9 @@ These platform versions were released recently, and the tools' defaults were upd
 * [CB-8741](https://issues.apache.org/jira/browse/CB-8741) Make plugin `--save` work more like `npm install`
 * [CB-8755](https://issues.apache.org/jira/browse/CB-8755) Plugin `--save`: Multiple `config.xml` entries don't get removed
 * [CB-8754](https://issues.apache.org/jira/browse/CB-8754) Auto-restoring a plugin fails when adding a platform.
-* [CB-8651](https://issues.apache.org/jira/browse/CB-8651) Restoring platforms causes plugin install to be triggered twice  (close #196)
+* [CB-8651](https://issues.apache.org/jira/browse/CB-8651) Restoring platforms causes plugin install to be triggered twice
 * [CB-8731](https://issues.apache.org/jira/browse/CB-8731) updated `app-hello-world` dependency to 3.9.0
-* [CB-8757](https://issues.apache.org/jira/browse/CB-8757) **iOS**: Make paths with `--link` relative to the real project path (close #192)
+* [CB-8757](https://issues.apache.org/jira/browse/CB-8757) **iOS**: Make paths with `--link` relative to the real project path
 * [CB-8286](https://issues.apache.org/jira/browse/CB-8286) Fix regression from e70432f2: Never want to link to `app-hello-world`
 * [CB-8737](https://issues.apache.org/jira/browse/CB-8737) Available platforms list includes extraneous values
 * Bugfix to `json.parse` before using `cfg`
@@ -100,9 +100,9 @@ These platform versions were released recently, and the tools' defaults were upd
 * [CB-8551](https://issues.apache.org/jira/browse/CB-8551) merged `fetchNPM` and `fetchPlugReg` into `fetchPlugin`
 * [CB-8551](https://issues.apache.org/jira/browse/CB-8551) updated regex in `isValidCprName` to exclude matching `@version`
 * [CB-8551](https://issues.apache.org/jira/browse/CB-8551) split up `changePluginId` into two functions
-* [CB-8457](https://issues.apache.org/jira/browse/CB-8457) Ignore version specifier when running hooks (close #165)
-* [CB-8578](https://issues.apache.org/jira/browse/CB-8578) `cordova plugin add <plugin>` should be able to restore urls and folders in addition to versions. (close #173)
-* [CB-7827](https://issues.apache.org/jira/browse/CB-7827) Add support for `android-activityName` within `config.xml` (close #171)
+* [CB-8457](https://issues.apache.org/jira/browse/CB-8457) Ignore version specifier when running hooks
+* [CB-8578](https://issues.apache.org/jira/browse/CB-8578) `cordova plugin add <plugin>` should be able to restore urls and folders in addition to versions
+* [CB-7827](https://issues.apache.org/jira/browse/CB-7827) Add support for `android-activityName` within `config.xml`
 * Add `org.apache.cordova.test-framework` to plugman publish whitelist
 * [CB-8577](https://issues.apache.org/jira/browse/CB-8577) - Read plugin variables from correct tag
 * [CB-8551](https://issues.apache.org/jira/browse/CB-8551) added `plugin-name` support for removing plugins.
