@@ -3,7 +3,7 @@ layout: post
 author:
     name: Steve Gill
     url: https://twitter.com/stevesgill
-title:  "Plugins Release and Moving plugins to NPM: April 15, 2015"
+title:  "Plugins Release and Moving plugins to NPM: April 21, 2015"
 categories: announcement release
 tags: plugins announcement releass
 ---
@@ -11,7 +11,7 @@ tags: plugins announcement releass
 The **Apache Cordova** team is happy to announce a new plugins release that coincides with us moving our core plugins to **[npm]**!
 
 * We are also encouraging third party plugin developers to start publishing their plugins to npm!
-* To start using plugins from **npm**, developers will have to update their **Cordova CLI** to version **5.0.0** or higher.
+* To start using plugins from **npm**, developers will have to update their **Cordova CLI** to version **5.0.0** or higher. Read about **Cordova CLI 5.0.0** in its [release blog post]().
 
 With the move over to **npm**, we have decided to rename our core plugins for improved readability and to better fit within the **npm** ecosystem.
 
