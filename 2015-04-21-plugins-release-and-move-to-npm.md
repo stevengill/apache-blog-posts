@@ -4,8 +4,8 @@ author:
     name: Steve Gill
     url: https://twitter.com/stevesgill
 title:  "Plugins Release and Moving plugins to npm: April 21, 2015"
-categories: announcement
-tags: plugins announcement releass
+categories: announcements
+tags: plugins announcement release
 ---
 
 The **Apache Cordova** team is happy to announce a new plugins release that coincides with us moving our core plugins to **[npm]**!
