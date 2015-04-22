@@ -3,7 +3,7 @@ layout: post
 author:
     name: Steve Gill
     url: https://twitter.com/stevesgill
-title:  "Plugins Release and Moving plugins to NPM: April 21, 2015"
+title:  "Plugins Release and Moving plugins to npm: April 21, 2015"
 categories: announcement
 tags: plugins announcement releass
 ---
