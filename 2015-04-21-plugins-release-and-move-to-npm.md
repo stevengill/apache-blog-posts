@@ -133,7 +133,7 @@ cordova-plugin-console@1.0.0
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added `package.json` file
 * [CB-8683](https://issues.apache.org/jira/browse/CB-8683) Changed `plugin-id` to `package-name`
 * [CB-8560](https://issues.apache.org/jira/browse/CB-8560) Integrate **TravisCI**
-* Use `TRAVIS_BUILD_DIR`, install ***paramedic** by **npm**
+* Use `TRAVIS_BUILD_DIR`, install **paramedic** by **npm**
 * Docs: renamed **Windows8** to **Windows**
 * [CB-8362](https://issues.apache.org/jira/browse/CB-8362) Add **Windows** platform section to Console plugin
 
