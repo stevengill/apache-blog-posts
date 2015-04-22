@@ -20,7 +20,7 @@ Release highlights:
 * `<feature>` tags have been renamed to `<plugin>` tags in your projects `config.xml`. Adding a `<plugin>` tag to your `config.xml` will fetch and install it on `cordova prepare` if it isn't already installed.
 * **Cordova Android@4.0.0** has been released and pinned as the default version for new projects. This includes support for pluggable WebViews! Read about it in the [Android 4.0.0 release blog post](http://cordova.apache.org/announcements/2015/04/15/cordova-android-4.0.0.html).
 * Our template app, **[Cordova App Hello World](https://www.npmjs.com/package/cordova-app-hello-world)**, has been moved to **npm**.
-* Added `cordova plugin save` command which saves all installed plugins into your projects `config.xml`
+* Added the ability to manage your plugin and platform dependencies in your project's `config.xml`. When adding plugins or platforms, use the `--save` flag to add them to `config.xml`. Ex: `cordova platform add android --save`. Existing projects can use `cordova plugin save` and `cordova platform save` commands to save all previously installed plugins and platforms into your project's `config.xml`. Platforms and plugins will be autorestored when `cordova prepare` is run. This allows developers to easily manage and share their dependenceis among different development enviroments and with their coworkers. 
 
 
 To update your tools:
