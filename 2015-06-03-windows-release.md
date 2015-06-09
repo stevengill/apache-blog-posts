@@ -22,21 +22,21 @@ We are happy to announce that Cordova Windows 4.0.0 has been released!
 * Some JavaScript libraries could not run in Windows 8/8.1 due to the safeHTML restriction and we needed to use winstore-jscompat. In Windows 10 Cordova apps, the security can be applied using [Content Security Policies](http://content-security-policy.com/).
 
 #Install
-You will need to update to cordova-cli 5.1.0 or higher to use this version of the Windows platform:
+You will need to update to cordova-cli 5.1.1 or higher to use this version of the Windows platform:
 
 To add it to an existing project:
-```
-npm install -g cordova
-cordova platform update windows
-```
+
+    npm install -g cordova
+    cordova platform update windows
 
 Alternatively, to add it to a new project:
-```
-npm install -g cordova
-cordova platform add windows
-```
+
+    npm install -g cordova
+    cordova platform add windows
+
+# Changes include:
 <!--more-->
-#What's new in Windows
+
 * [CB-8954](https://issues.apache.org/jira/browse/CB-8954) Adds `requirements` command support to check_reqs module
 * [CB-9073](https://issues.apache.org/jira/browse/CB-9073) Fixes build error when path to project contains `&` symbol
 * [CB-8889](https://issues.apache.org/jira/browse/CB-8889) Persist app/package name and product ID during platform update.
