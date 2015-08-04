@@ -34,7 +34,7 @@ To upgrade:
 
     npm install -g cordova
     cd my_project
-    cordova platform update ios
+    cordova platform update ios@3.9.0
 
 To add it explicitly:
 
