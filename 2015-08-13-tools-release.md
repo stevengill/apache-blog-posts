@@ -42,8 +42,8 @@ To update your tools:
 When adding these platforms to your project, the following versions are now used by default.
 These platform versions were released recently, and the tools' defaults were updated:
 
-* [Cordova Android 4.1.1](http://cordova.apache.org/announcements/2015/07/21/cordova-android-4.1.0.html)
-* [Cordova iOS 3.9.1](http://cordova.apache.org/announcements/2015/08/04/cordova-ios-3.9.0.html)
+* [Cordova Android ~4.1.0 (4.1.1)](http://cordova.apache.org/announcements/2015/07/21/cordova-android-4.1.0.html)
+* [Cordova iOS ~3.9.0 (3.9.1)](http://cordova.apache.org/announcements/2015/08/04/cordova-ios-3.9.0.html)
 
 ## cordova-lib
 * [CB-9436](https://issues.apache.org/jira/browse/CB-9436) Removes `require-tr` bundle transformation
@@ -74,7 +74,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * [CB-9225](https://issues.apache.org/jira/browse/CB-9225) Add windows platform support to `plugman platform add`
 * [CB-9163](https://issues.apache.org/jira/browse/CB-9163) when engine check isn't satisfied, skip that plugin install
 * [CB-9162](https://issues.apache.org/jira/browse/CB-9162) Adds support for default values for plugin variables.
-* fCB-9188 Confusing error after delete plugin folder then prepare.
+* [CB-9188](https://issues.apache.org/jira/browse/CB-9188) Confusing error after delete plugin folder then prepare.
 * [CB-9145](https://issues.apache.org/jira/browse/CB-9145) prepare can lose data during config munge
 * [CB-9177](https://issues.apache.org/jira/browse/CB-9177) Use tilde instead of caret when save to config.xml.
 * [CB-9147](https://issues.apache.org/jira/browse/CB-9147) Adding a platform via caret version adds latest rather than the latest matching.
@@ -119,12 +119,12 @@ These platform versions were released recently, and the tools' defaults were upd
 
 ## Pinned Platform Versions for **Cordova CLI 5.1.1**
 
-* Cordova Amazon-FireOS: 3.6.3
-* Cordova Android: 4.1.1
-* Cordova BlackBerry10: 3.7.0
-* Cordova Browser: 3.6.0
-* Cordova FirefoxOS: 3.6.3
-* Cordova iOS: 3.9.1
-* Cordova Ubuntu: 4.0.0
-* Cordova Windows: 4.0.0
-* Cordova WP8: 3.8.1
+* Cordova Amazon-FireOS: ~3.6.3
+* Cordova Android: ~4.1.0 (4.1.1)
+* Cordova BlackBerry10: ~3.7.0
+* Cordova Browser: ~3.6.0
+* Cordova FirefoxOS: ~3.6.3
+* Cordova iOS: ~3.9.0 (3.9.1)
+* Cordova Ubuntu: ~4.0.0
+* Cordova Windows: ~4.0.0
+* Cordova WP8: ~3.8.1
