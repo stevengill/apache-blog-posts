@@ -15,11 +15,11 @@ New versions of cordova tools are now live!
 * [cordova-js@4.1.0](https://www.npmjs.org/package/cordova-js)
 
 Release highlights:
-* [CB-9330](https://issues.apache.org/jira/browse/CB-9330) Removed Plugman *publish*, *unpublish*, *addUser* and *owner add/rm* commands due to [plugins.cordova.io](http://plugins.cordova.io/#/) switching to read only. Plugin authors are encouraged to publish to [npm](https://www.npmjs.com/) instead. Learn more at (http://plugins.cordova.io/npm/authors.html)[http://plugins.cordova.io/npm/authors.html].
-* [CB-5578](https://issues.apache.org/jira/browse/CB-5578) Adds `clean` command to cordova-cli. This cleans the build artifacts for your project. Run `cordova clean -h` for more information.
-* [CB-9177](https://issues.apache.org/jira/browse/CB-9177) Use tilde instead of caret when saving to config.xml via `--save flag`.
+* [CB-9330](https://issues.apache.org/jira/browse/CB-9330) Removed `Plugman` `publish`, `unpublish`, `addUser` and `owner add/rm` commands due to [plugins.cordova.io](http://plugins.cordova.io/#/) switching to read only. Plugin authors are encouraged to publish to [npm](https://www.npmjs.com/) instead. Learn more at [http://plugins.cordova.io/npm/authors.html](http://plugins.cordova.io/npm/authors.html).
+* [CB-5578](https://issues.apache.org/jira/browse/CB-5578) Adds `clean` command to `cordova-cli`. This cleans the build artifacts for your project. Run `cordova clean -h` for more information.
+* [CB-9177](https://issues.apache.org/jira/browse/CB-9177) Use tilde instead of caret when saving to `config.xml` via `--save` flag.
 * [CB-9225](https://issues.apache.org/jira/browse/CB-9225) Add **Windows** platform support to `plugman platform add`
-* [CB-9114](https://issues.apache.org/jira/browse/CB-9114): Deprecation Warning for --usegit flag.
+* [CB-9114](https://issues.apache.org/jira/browse/CB-9114): Deprecation Warning for `--usegit` flag.
 * Browserify flag for adding plugins at build time vs run time has all tests passings. Please try it out via `--browserify`. EX. `cordova run android --browserify`.
 
 
@@ -114,7 +114,7 @@ These platform versions were released recently, and the tools' defaults were upd
 
 ## plugman
 * updated help with changes for npm publishing
-* [CB-9330](https://issues.apache.org/jira/browse/CB-9330) Adds notice about removed plugman commands. Removed *publish*, *unpublish*, *addUser* and *owner add/rm* commands due to [plugins.cordova.io](http://plugins.cordova.io/#/) switching to read only. Plugin authors are now encouraged to publish to [npm](https://www.npmjs.com/) instead. Learn more at (http://plugins.cordova.io/npm/authors.html)[http://plugins.cordova.io/npm/authors.html].
+* [CB-9330](https://issues.apache.org/jira/browse/CB-9330) Removed Plugman `publish`, `unpublish`, `addUser` and `owner add/rm` commands due to [plugins.cordova.io](http://plugins.cordova.io/#/) switching to read only. Plugin authors are encouraged to publish to [npm](https://www.npmjs.com/) instead. Learn more at [http://plugins.cordova.io/npm/authors.html](http://plugins.cordova.io/npm/authors.html).
 * [CB-9332](https://issues.apache.org/jira/browse/CB-9332) Removes unnecessary dependencies
 
 ## Pinned Platform Versions for **Cordova CLI 5.1.1**
