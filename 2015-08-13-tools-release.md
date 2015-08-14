@@ -84,7 +84,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * [CB-8993](https://issues.apache.org/jira/browse/CB-8993) Plugin restore ignores search path. This closes #224
 * [CB-9108](https://issues.apache.org/jira/browse/CB-9108) Handle version ranges when add platform with --usegit.
 * [CB-8898](https://issues.apache.org/jira/browse/CB-8898) Makes error message descriptive when `requirements` is called outside of cordova project.
-* [CB-8007](https://issues.apache.org/jira/browse/CB-8007) Two cordova plugins modifying “*-Info.plist” CFBundleURLTypes
+* [CB-8007](https://issues.apache.org/jira/browse/CB-8007) Two cordova plugins modifying `*-Info.plist` CFBundleURLTypes
 * [CB-9065](https://issues.apache.org/jira/browse/CB-9065) Allow removing plugins by short name.
 * [CB-9001](https://issues.apache.org/jira/browse/CB-9001) Set WMAppManifest.xml Author, Description and Publisher attributes based on config.xml
 * [CB-9073](https://issues.apache.org/jira/browse/CB-9073) Allow to add platform if project path contains `&` symbol
