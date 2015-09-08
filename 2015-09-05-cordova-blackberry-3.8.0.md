@@ -16,11 +16,11 @@ To upgrade:
 
     npm install -g cordova
     cd my_project
-    cordova platform update blackberry@3.8.0
+    cordova platform update blackberry10@3.8.0
 
 To add it explicitly:
 
-    cordova platform add blackberry@3.8.0 --save
+    cordova platform add blackberry10@3.8.0 --save
 
 For non-CLI projects or for pre-3.0 projects, refer to the [upgrade guides](http://cordova.apache.org/docs/en/edge/guide_platforms_index.md.html).
 

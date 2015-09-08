@@ -7,7 +7,7 @@ title:  "Cordova Plugins Registry becomes immutable"
 categories: news
 tags: announcement
 ---
-Starting today, [plugins.cordova.io](http://plugins.cordova.io) has become immutable. Publishing new plugins or updating exisiting plugins is not possible anymore. Plugin authors are encouraged to move their plugins over to [npm](http://npmjs.org) if they haven't already. Plugin authors should checkout our guide to transition over to npm [here](http://plugins.cordova.io/npm/authors.html).
+Starting today, [plugins.cordova.io](http://plugins.cordova.io) has become immutable. Plugin authors are encouraged to move their plugins over to [npm](http://npmjs.org) if they haven't already. Plugin authors should checkout our guide to transition over to npm [here](http://plugins.cordova.io/npm/authors.html).
 
 Users can start searching for cordova plugins which have moved over to npm on our new [cordova npm search page](http://plugins.cordova.io/npm/index.html).
 
