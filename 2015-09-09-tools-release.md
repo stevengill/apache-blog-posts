@@ -24,7 +24,6 @@ To update your tools:
 
         npm install -g plugman
 
-
 # Changes include:
 <!--more-->
 
@@ -38,8 +37,7 @@ These platform versions were released recently, and the tools' defaults were upd
 * [Cordova Blackberry10 ~3.8.0](http://cordova.apache.org/announcements/2015/09/05/cordova-blackberry-3.8.0.html)
 
 ## cordova-lib
-* pinned blackberry@3.8.0 in prepartion for its release
-* pinned browser@4.0.0 and windows@4.1.0
+* pinned browser@~4.0.0, windows@~4.1.0, blackberry10@~3.8.0, webos@~3.7.0
 * [CB-9559](https://issues.apache.org/jira/browse/CB-9559) Adding a plugin with caret in version results in an error
 * Update cordova-serve required version to 0.1.3.
 * [CB-6506](https://issues.apache.org/jira/browse/CB-6506) RTC: Add support for **OSX** (closes #278)
@@ -71,3 +69,9 @@ These platform versions were released recently, and the tools' defaults were upd
 * Cordova Windows: ~4.1.0
 * Cordova WP8: ~3.8.1
 * Cordova Webos: ~3.7.0
+
+Other News:
+
+* [plugins.cordova.io](http://plugins.cordova.io) has switched to read-only and will be shutting down Oct.15th. Plugin authors, please move your plugins to npm! Read more [here](http://cordova.apache.org/news/2015/09/08/CPR-readonly.html).
+
+Come chat with us about Cordova development on our slack channel! Sign up at [slack.cordova.io](http://slack.cordova.io).
