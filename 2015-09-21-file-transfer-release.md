@@ -58,6 +58,7 @@ Upgrade path:
 
 Credit:
  This issue was discovered by Muneaki Nishimura (Sony Digital Network Applications, Inc.)
+
 =======================
 
 cordova-plugin-file-transfer@1.3.0
